@@ -1,4 +1,3 @@
-
 """
 Default settings for django-helpdesk.
 
@@ -6,12 +5,7 @@ Default settings for django-helpdesk.
 
 from django.conf import settings
 
-# check for django-tagging support
-HAS_TAG_SUPPORT = 'tagging' in settings.INSTALLED_APPS
-try:
-        import tagging
-except ImportError:
-        HAS_TAG_SUPPORT = False
+HAS_TAG_SUPPORT = False
 
 try:
     DEFAULT_USER_SETTINGS = settings.HELPDESK_DEFAULT_SETTINGS
