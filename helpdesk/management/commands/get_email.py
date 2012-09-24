@@ -152,7 +152,13 @@ def ticket_from_message(message, queue, quiet):
     subject = decode_mail_headers(decodeUnknown(message.get_charset(), subject))
     subject = subject.replace("Re: ", "").replace("Fw: ", "").replace("RE: ", "").replace("FW: ", "").strip()
 
-    sender = message.get('from', _('Unknown Sender'))
+    reply_to = message.get('reply-to', None):
+    
+    if reply_to:
+        sender = reply_to
+    else:
+        sender = message.get('reply-to', _('Unknown Sender'))
+    
     sender = decode_mail_headers(decodeUnknown(message.get_charset(), sender))
 
     sender_email = parseaddr(sender)[1]
