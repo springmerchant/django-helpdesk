@@ -157,7 +157,7 @@ def ticket_from_message(message, queue, quiet):
     if reply_to:
         sender = reply_to
     else:
-        sender = message.get('reply-to', _('Unknown Sender'))
+        sender = message.get('from', _('Unknown Sender'))
     
     sender = decode_mail_headers(decodeUnknown(message.get_charset(), sender))
 
