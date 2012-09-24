@@ -152,7 +152,7 @@ def ticket_from_message(message, queue, quiet):
     subject = decode_mail_headers(decodeUnknown(message.get_charset(), subject))
     subject = subject.replace("Re: ", "").replace("Fw: ", "").replace("RE: ", "").replace("FW: ", "").strip()
 
-    reply_to = message.get('reply-to', None):
+    reply_to = message.get('reply-to', None)
     
     if reply_to:
         sender = reply_to
