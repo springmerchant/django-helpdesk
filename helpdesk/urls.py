@@ -184,19 +184,19 @@ urlpatterns += patterns('',
 
 if helpdesk_settings.HELPDESK_KB_ENABLED:
     urlpatterns += patterns('helpdesk.views.kb',
-        url(r'^kb/$',
+        url(r'^articole/$',
             'index', name='helpdesk_kb_index'),
        
-        url(r'^kb/(?P<item>[0-9]+)/vote/$',
+        url(r'^articole/(?P<item>[0-9]+)/vote/$',
             'vote', name='helpdesk_kb_vote'),
  
-        url(r'^kb/(?P<item>[0-9]+)/(?P<slug>[A-Za-z0-9_-]+)/$',
+        url(r'^articole/(?P<item>[0-9]+)/(?P<slug>[A-Za-z0-9_-]+)/$',
             'item', name='helpdesk_kb_item_slug'),
 
-        url(r'^kb/(?P<item>[0-9]+)/$',
+        url(r'^articole/(?P<item>[0-9]+)/$',
             'item', name='helpdesk_kb_item'),
 
-        url(r'^kb/(?P<slug>[A-Za-z0-9_-]+)/$',
+        url(r'^articole/(?P<slug>[A-Za-z0-9_-]+)/$',
             'category', name='helpdesk_kb_category'),
     )
 
