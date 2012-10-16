@@ -1,0 +1,2650 @@
+﻿# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-10-18 17:49+0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1?0:(((n%100>19)||((n%100==0)&&(n!=0)))?"
+"2:1))\n"
+
+#: forms.py:113 forms.py:360 models.py:262
+#: templates/helpdesk/dashboard.html:11 templates/helpdesk/dashboard.html:59
+#: templates/helpdesk/dashboard.html:79 templates/helpdesk/dashboard.html:99
+#: templates/helpdesk/dashboard.html:121 templates/helpdesk/rss_list.html:23
+#: templates/helpdesk/ticket_list.html:56
+#: templates/helpdesk/ticket_list.html:78
+#: templates/helpdesk/ticket_list.html:199 views/staff.py:1080
+#: views/staff.py:1086 views/staff.py:1092 views/staff.py:1098
+msgid "Queue"
+msgstr "Stivă"
+
+#: forms.py:122
+msgid "Summary of the problem"
+msgstr "Sumarul problemei"
+
+#: forms.py:127
+msgid "Submitter E-Mail Address"
+msgstr "E-mail-ul utilizatorului"
+
+#: forms.py:129
+msgid ""
+"This e-mail address will receive copies of all public updates to this ticket."
+msgstr ""
+"Această adresă de e-mail va primi toate actualizările publice ale acestui ticket."
+
+#: forms.py:135
+msgid "Description of Issue"
+msgstr "Descrierea problemei"
+
+#: forms.py:142
+msgid "Case owner"
+msgstr "Deținător caz"
+
+#: forms.py:143
+msgid ""
+"If you select an owner other than yourself, they'll be e-mailed details of "
+"this ticket immediately."
+msgstr ""
+"Dacă selectezi un deținător altul decît propria persoană, atunci ei vor primi"
+"detaliile acestui email imediat."
+
+#: forms.py:151 models.py:322 management/commands/escalate_tickets.py:149
+#: templates/helpdesk/public_view_ticket.html:21
+#: templates/helpdesk/ticket.html:182
+#: templates/helpdesk/ticket_desc_table.html:31
+#: templates/helpdesk/ticket_list.html:84 views/staff.py:444
+msgid "Priority"
+msgstr "Prioritate"
+
+#: forms.py:152
+msgid "Please select a priority carefully. If unsure, leave it as '3'."
+msgstr "Te roguăm selectează cu atenția prioritatea. Dacă nu ești sigur las=o la valoarea implicită - 3."
+
+#: forms.py:159 forms.py:397 models.py:330 templates/helpdesk/ticket.html:184
+#: views/staff.py:454
+msgid "Due on"
+msgstr "Valabil până la"
+
+#: forms.py:171 forms.py:402
+msgid "Attach File"
+msgstr "atașează fișier"
+
+#: forms.py:172 forms.py:403
+msgid "You can attach a file such as a document or screenshot to this ticket."
+msgstr "Poși atașa un fișier documen sau imagine la acest ticket."
+
+#: forms.py:180 templates/helpdesk/public_view_ticket.html:33
+#: templates/helpdesk/ticket.html:188
+#: templates/helpdesk/ticket_desc_table.html:42
+#: templates/helpdesk/ticket_list.html:61
+#: templates/helpdesk/ticket_list.html:199 views/staff.py:465
+msgid "Tags"
+msgstr "Etichete"
+
+#: forms.py:181
+msgid ""
+"Words, separated by spaces, or phrases separated by commas. These should "
+"communicate significant characteristics of this ticket"
+msgstr ""
+"Cuvinte separate de spații sau fraze separate de virgule. Acestea ar trebui "
+"să comunice caracteristicile principale ale acestui ticket"
+
+#: forms.py:275
+msgid "Ticket Opened"
+msgstr "Ticket deschis"
+
+#: forms.py:282
+#, python-format
+msgid "Ticket Opened & Assigned to %(name)s"
+msgstr "Ticket deschis și desemnat lui  %(name)s"
+
+#: forms.py:369
+msgid "Summary of your query"
+msgstr "Sumarul problemei de raportate"
+
+#: forms.py:374
+msgid "Your E-Mail Address"
+msgstr "Adresa de e-mail"
+
+#: forms.py:375
+msgid "We will e-mail you when your ticket is updated."
+msgstr "Își vom trimite un e-mail când ticketul va fi actualizat."
+
+#: forms.py:380
+msgid "Description of your issue"
+msgstr "Descrierea problemei"
+
+#: forms.py:382
+msgid ""
+"Please be as descriptive as possible, including any details we may need to "
+"address your query."
+msgstr ""
+"Te rugăm să fii câtmai desciptiv cu putință și să incluzi toate detaliile "
+"legate de problema ta."
+
+#: forms.py:390
+msgid "Urgency"
+msgstr "Grad de urgență"
+
+#: forms.py:391
+msgid "Please select a priority carefully."
+msgstr "Te rugăm să selectezi gradul de urgență cu atenție."
+
+#: forms.py:486
+msgid "Ticket Opened Via Web"
+msgstr "ticket deschis prin interfața web"
+
+#: forms.py:553
+msgid "Show Ticket List on Login?"
+msgstr "Arată lista de tickete la intrarea în cont?"
+
+#: forms.py:554
+msgid "Display the ticket list upon login? Otherwise, the dashboard is shown."
+msgstr "Afișează lista de tickete la intrarea în cont? Altfel, va fi afișat panoul de control."
+
+#: forms.py:559
+msgid "E-mail me on ticket change?"
+msgstr "Să trimitem email prentu orice modificare legată de ticket?"
+
+#: forms.py:560
+msgid ""
+"If you're the ticket owner and the ticket is changed via the web by somebody "
+"else, do you want to receive an e-mail?"
+msgstr ""
+"Dacă tu esți deținătorul ticketului și ticketul este modificat de cineva prin interfața web"
+"vrei să fii informat de acest lucru?"
+
+#: forms.py:565
+msgid "E-mail me when assigned a ticket?"
+msgstr "Să-ți trimitem email când ți se desemnează un ticket?"
+
+#: forms.py:566
+msgid ""
+"If you are assigned a ticket via the web, do you want to receive an e-mail?"
+msgstr ""
+"Dacă ți se desemnează un ticket prin interfața web, vrei să fii anunțat printr-un email ?"
+
+#: forms.py:571
+msgid "E-mail me when a ticket is changed via the API?"
+msgstr "Să-ți trimitem email când ticketul este modificat prin API?"
+
+#: forms.py:572
+msgid "If a ticket is altered by the API, do you want to receive an e-mail?"
+msgstr "Dacă un ticket este modificat prin API, vrei să te anunțăm printr-un email?"
+
+#: forms.py:577
+msgid "Number of tickets to show per page"
+msgstr "Numărul de tickete pe pagină"
+
+#: forms.py:578
+msgid "How many tickets do you want to see on the Ticket List page?"
+msgstr "Câte tickete vrei să vezi pe pagina cu Lista de Tickete?"
+
+#: forms.py:585
+msgid "Use my e-mail address when submitting tickets?"
+msgstr "Să folosim adresa ta de email când deschidem tickete?"
+
+#: forms.py:586
+msgid ""
+"When you submit a ticket, do you want to automatically use your e-mail "
+"address as the submitter address? You can type a different e-mail address "
+"when entering the ticket if needed, this option only changes the default."
+msgstr ""
+"Când deschizi un ticket, vrei să folosim în mod automat"
+"adresa ta de email? Poți introduce altă adresă de email "
+"dacă este cu adevărat nevoie, însă această opțiune schimbă numai adresa implicită."
+
+#: models.py:32 models.py:256 models.py:496 models.py:793 models.py:827
+#: templates/helpdesk/dashboard.html:59 templates/helpdesk/dashboard.html:79
+#: templates/helpdesk/dashboard.html:99 templates/helpdesk/dashboard.html:121
+#: templates/helpdesk/ticket.html:176 templates/helpdesk/ticket_list.html:75
+#: templates/helpdesk/ticket_list.html:199 views/staff.py:434
+msgid "Title"
+msgstr "Titlu"
+
+#: models.py:37 models.py:798 models.py:1168
+msgid "Slug"
+msgstr "Scurtătură"
+
+#: models.py:38
+msgid ""
+"This slug is used when building ticket ID's. Once set, try not to change it "
+"or e-mailing may get messy."
+msgstr ""
+"Această scurtătură este folosită când se creează ID-urile ticketelor. Odată setat încearcă să nu îl mai modifici"
+"pentru că sistemul de emailuri va fi afișat în mod inestetic."
+
+#: models.py:43 models.py:1021 models.py:1091 models.py:1165
+#: templates/helpdesk/email_ignore_list.html:13
+#: templates/helpdesk/ticket_cc_list.html:15
+msgid "E-Mail Address"
+msgstr "Adresa de email"
+
+#: models.py:46
+msgid ""
+"All outgoing e-mails for this queue will use this e-mail address. If you use "
+"IMAP or POP3, this should be the e-mail address for that mailbox."
+msgstr ""
+"Toate emailurile trimise pentru această stivă vor folosi această adresă de email. Dacă folosești "
+"IMAP sau POP3, aceasta ar trebui să fie emailul pentru căsuța ta de email."
+
+#: models.py:52 models.py:772
+msgid "Locale"
+msgstr "Localizare"
+
+#: models.py:56
+msgid ""
+"Locale of this queue. All correspondence in this queue will be in this "
+"language."
+msgstr ""
+"Localizarea acestei stive. Toată corespondența din stivă se va face în această "
+"limbă."
+
+#: models.py:60
+msgid "Allow Public Submission?"
+msgstr "Permiți trimiterea de cereri în mod public?"
+
+#: models.py:63
+msgid "Should this queue be listed on the public submission form?"
+msgstr "Permiți afișarea stivei în formularul public?"
+
+#: models.py:68
+msgid "Allow E-Mail Submission?"
+msgstr "Permiți deschiderea de tickete prin email? "
+
+#: models.py:71
+msgid "Do you want to poll the e-mail box below for new tickets?"
+msgstr "Vrei să cauți tickete după adresa de email care să fie introdusă mai jos?"
+
+#: models.py:76
+msgid "Escalation Days"
+msgstr "Zile pentru escalare"
+
+#: models.py:79
+msgid ""
+"For tickets which are not held, how often do you wish to increase their "
+"priority? Set to 0 for no escalation."
+msgstr ""
+"Pentru tickete care nu sunt blocate, cât de des vrei să le mărești gradul"
+"de prioritate. Alege 0 pentru nici o escalare."
+
+#: models.py:84
+msgid "New Ticket CC Address"
+msgstr "Adresa CC Ticket Nou"
+
+#: models.py:88
+msgid ""
+"If an e-mail address is entered here, then it will receive notification of "
+"all new tickets created for this queue. Enter a comma between multiple e-"
+"mail addresses."
+msgstr ""
+"Dacă introduci o adresă de email aici, atunci la aceasta se vor trimite notificări despre"
+"toate ticketele noi create pentru această stivă. Introdu o virgulă ântre mai multe"
+"adrese de email."
+
+#: models.py:94
+msgid "Updated Ticket CC Address"
+msgstr "Adresa CC a Ticketului Actualizat"
+
+#: models.py:98
+msgid ""
+"If an e-mail address is entered here, then it will receive notification of "
+"all activity (new tickets, closed tickets, updates, reassignments, etc) for "
+"this queue. Separate multiple addresses with a comma."
+msgstr ""
+"Dacă introduci o adresă de email aici, atunci aceasta va primi notificări despre"
+"toată activitatea (tickete noi, tickete închise, actualizări, desemnări, etc) pentru"
+"stiva aceasta. Separă mai multe adrese de email printr-o virgulă."
+
+#: models.py:105
+msgid "E-Mail Box Type"
+msgstr Tipul Emailului""
+
+#: models.py:107
+msgid "POP 3"
+msgstr "POP 3"
+
+#: models.py:107
+msgid "IMAP"
+msgstr "IMAP"
+
+#: models.py:110
+msgid ""
+"E-Mail server type for creating tickets automatically from a mailbox - both "
+"POP3 and IMAP are supported."
+msgstr ""
+"Tipul de email server pentru crearea automată a ticketelor din căsuța de email - ambele"
+"POP# și IMAP pot fi folosite."
+
+#: models.py:115
+msgid "E-Mail Hostname"
+msgstr "Host E-mail"
+
+#: models.py:119
+msgid ""
+"Your e-mail server address - either the domain name or IP address. May be "
+"\"localhost\"."
+msgstr ""
+"Adresa serverului pentru email - fie numele de domeniu, fie adresa IP. Ar putea fi "
+"\"localhost\"."
+
+#: models.py:124
+msgid "E-Mail Port"
+msgstr "Port E-mail"
+
+#: models.py:127
+msgid ""
+"Port number to use for accessing e-mail. Default for POP3 is \"110\", and "
+"for IMAP is \"143\". This may differ on some servers. Leave it blank to use "
+"the defaults."
+msgstr ""
+"Portul care să fie folosit pentru accesarea emailului. Pentru POP3 implicit este \"110\", și "
+"pentru IMAP este \"143\". Acestea pot fi diferite pe unele servere. Lasă necompletat pentru a folosi "
+"valorile implicite."
+
+#: models.py:133
+msgid "Use SSL for E-Mail?"
+msgstr "Vrei să folosești SSL pentru email?"
+
+#: models.py:136
+msgid ""
+"Whether to use SSL for IMAP or POP3 - the default ports when using SSL are "
+"993 for IMAP and 995 for POP3."
+msgstr ""
+"Dacă vrei să folosești SSL pentru IMAP sau POP3 - porturile implicite pentru folosirea SSL sunt"
+"993 pentru IMAP și 995 pentru POP3."
+
+#: models.py:141
+msgid "E-Mail Username"
+msgstr "Utilizator Email"
+
+#: models.py:145
+msgid "Username for accessing this mailbox."
+msgstr "Utilizator pentru accesarea emailului."
+
+#: models.py:149
+msgid "E-Mail Password"
+msgstr "Parola Email"
+
+#: models.py:153
+msgid "Password for the above username"
+msgstr "Parola pentru utilizatorul de mai sus"
+
+#: models.py:157
+msgid "IMAP Folder"
+msgstr "folderul IMAP"
+
+#: models.py:161
+msgid ""
+"If using IMAP, what folder do you wish to fetch messages from? This allows "
+"you to use one IMAP account for multiple queues, by filtering messages on "
+"your IMAP server into separate folders. Default: INBOX."
+msgstr ""
+"Dacă folosești IMAP, din ce folder vrei să preiei mesajele? Aceasta îți permite "
+"să folosești contul IMAP pentru mai multe stive, prin ordonarea mesajelor de pe  "
+"serverul IMAP în foldere diferite. Implicit: INBOX."
+
+#: models.py:168
+msgid "E-Mail Check Interval"
+msgstr "Interval Verificare Email"
+
+#: models.py:169
+msgid "How often do you wish to check this mailbox? (in Minutes)"
+msgstr "Cât de des dorești să se verifice emailul? (în minute)"
+
+#: models.py:240 templates/helpdesk/dashboard.html:11
+#: templates/helpdesk/ticket.html:136
+msgid "Open"
+msgstr "Deschis"
+
+#: models.py:241 templates/helpdesk/ticket.html:142
+#: templates/helpdesk/ticket.html.py:148 templates/helpdesk/ticket.html:153
+#: templates/helpdesk/ticket.html.py:157
+msgid "Reopened"
+msgstr "Redeschis"
+
+#: models.py:242 templates/helpdesk/dashboard.html:11
+#: templates/helpdesk/ticket.html:137 templates/helpdesk/ticket.html.py:143
+#: templates/helpdesk/ticket.html:149
+msgid "Resolved"
+msgstr "Rezolvat"
+
+#: models.py:243 templates/helpdesk/dashboard.html:11
+#: templates/helpdesk/ticket.html:138 templates/helpdesk/ticket.html.py:144
+#: templates/helpdesk/ticket.html:150 templates/helpdesk/ticket.html.py:154
+msgid "Closed"
+msgstr "Închis"
+
+#: models.py:244 templates/helpdesk/ticket.html:139
+#: templates/helpdesk/ticket.html.py:145 templates/helpdesk/ticket.html:158
+msgid "Duplicate"
+msgstr "Dublură"
+
+#: models.py:248
+msgid "1. Critical"
+msgstr "1. Critic"
+
+#: models.py:249
+msgid "2. High"
+msgstr "2. Înalt"
+
+#: models.py:250
+msgid "3. Normal"
+msgstr "3. Normal"
+
+#: models.py:251
+msgid "4. Low"
+msgstr "4. Scăzut"
+
+#: models.py:252
+msgid "5. Very Low"
+msgstr "5. Foarte scăzut"
+
+#: models.py:266 templates/helpdesk/dashboard.html:99
+#: templates/helpdesk/ticket_list.html:72
+#: templates/helpdesk/ticket_list.html:199
+msgid "Created"
+msgstr "Creat"
+
+#: models.py:268
+msgid "Date this ticket was first created"
+msgstr "Data la care ticketul a fost creat"
+
+#: models.py:272
+msgid "Modified"
+msgstr "Modificat"
+
+#: models.py:274
+msgid "Date this ticket was most recently changed."
+msgstr "Data la care ticketul a fost modificat."
+
+#: models.py:278 templates/helpdesk/public_view_ticket.html:16
+#: templates/helpdesk/ticket_desc_table.html:26
+msgid "Submitter E-Mail"
+msgstr "Email Utilizator"
+
+#: models.py:281
+msgid ""
+"The submitter will receive an email for all public follow-ups left for this "
+"task."
+msgstr ""
+"Cel care a deschis acest ticket va primi căte un email pentru fiecare mesaj public legat de "
+"operațiune."
+
+#: models.py:290
+msgid "Assigned to"
+msgstr "Desemnat lui"
+
+#: models.py:294 templates/helpdesk/dashboard.html:59
+#: templates/helpdesk/dashboard.html:79 templates/helpdesk/dashboard.html:121
+#: templates/helpdesk/ticket_list.html:57
+#: templates/helpdesk/ticket_list.html:81
+#: templates/helpdesk/ticket_list.html:199
+msgid "Status"
+msgstr "Stare"
+
+#: models.py:300
+msgid "On Hold"
+msgstr "În Așteptare"
+
+#: models.py:303
+msgid "If a ticket is on hold, it will not automatically be escalated."
+msgstr "Dacă un ticket este În așteptare, nu va fi escalat în mod automat."
+
+#: models.py:308 models.py:802 templates/helpdesk/public_view_ticket.html:39
+#: templates/helpdesk/ticket_desc_table.html:67
+msgid "Description"
+msgstr "Descriere"
+
+#: models.py:311
+msgid "The content of the customers query."
+msgstr "Conținutul problemei clientului."
+
+#: models.py:315 templates/helpdesk/public_view_ticket.html:46
+#: templates/helpdesk/ticket_desc_table.html:74
+msgid "Resolution"
+msgstr "Rezolvare"
+
+#: models.py:318
+msgid "The resolution provided to the customer by our staff."
+msgstr "Rezolvarea oferită clientului de către echipa tehnică."
+
+#: models.py:326
+msgid "1 = Highest Priority, 5 = Low Priority"
+msgstr "1 = Prioritate Maximă, 5 = Prioritate Minimă"
+
+#: models.py:339
+msgid ""
+"The date this ticket was last escalated - updated automatically by "
+"management/commands/escalate_tickets.py."
+msgstr ""
+"Data la care acest ticket a fost escalat ultima oară - actualizat automat de "
+"management/commands/escalate_tickets.py."
+
+#: models.py:348 templates/helpdesk/ticket_desc_table.html:22
+#: views/feeds.py:91 views/feeds.py:117 views/feeds.py:169 views/staff.py:391
+msgid "Unassigned"
+msgstr "Nedesemnat"
+
+#: models.py:387
+msgid " - On Hold"
+msgstr " - În Așteptare"
+
+#: models.py:487 models.py:1079 models.py:1237 models.py:1262
+#: templates/helpdesk/public_homepage.html:26
+#: templates/helpdesk/public_view_form.html:12
+msgid "Ticket"
+msgstr "Ticket"
+
+#: models.py:491 models.py:720 models.py:1014 models.py:1162
+msgid "Date"
+msgstr "Data"
+
+#: models.py:503 views/staff.py:405
+msgid "Comment"
+msgstr "Comentariu"
+
+#: models.py:509
+msgid "Public"
+msgstr "Public"
+
+#: models.py:512
+msgid ""
+"Public tickets are viewable by the submitter and all staff, but non-public "
+"tickets can only be seen by staff."
+msgstr ""
+"Ticketele publice sunt vizibile pentru echipă și cel ce le-a deschis, dar cele care nu sunt publice "
+"pot fi văzute doar the echipă."
+
+#: models.py:520 models.py:894 models.py:1087 views/staff.py:1056
+#: views/staff.py:1062 views/staff.py:1068 views/staff.py:1074
+msgid "User"
+msgstr "Utilizator"
+
+#: models.py:524 templates/helpdesk/ticket.html:133
+msgid "New Status"
+msgstr "Stare Nouă"
+
+#: models.py:528
+msgid "If the status was changed, what was it changed to?"
+msgstr "Dacă starea a fost schimbată, în ce s-a modificat?"
+
+#: models.py:557 models.py:614
+msgid "Follow-up"
+msgstr "Follow-up"
+
+#: models.py:561 models.py:1242
+msgid "Field"
+msgstr "Câmp"
+
+#: models.py:566
+msgid "Old Value"
+msgstr "Valoare Veche"
+
+#: models.py:572
+msgid "New Value"
+msgstr "Valoare nouă"
+
+#: models.py:580
+msgid "removed"
+msgstr "șters"
+
+#: models.py:582
+#, python-format
+msgid "set to %s"
+msgstr "setat la %s"
+
+#: models.py:584
+#, python-format
+msgid "changed from \"%(old_value)s\" to \"%(new_value)s\""
+msgstr "schimbat din \"%(old_value)s\" în \"%(new_value)s\""
+
+#: models.py:618
+msgid "File"
+msgstr "Fișier"
+
+#: models.py:623
+msgid "Filename"
+msgstr "nume fișier"
+
+#: models.py:628
+msgid "MIME Type"
+msgstr "MIME Type"
+
+#: models.py:633
+msgid "Size"
+msgstr "Mărime"
+
+#: models.py:634
+msgid "Size of this file in bytes"
+msgstr "Mărimea în biți"
+
+#: models.py:669
+msgid ""
+"Leave blank to allow this reply to be used for all queues, or select those "
+"queues you wish to limit this reply to."
+msgstr ""
+"Lasă necompletat pentru a permite folosirea acestui răspuns în toate stivele, sau selectează acele "
+"stive pentru care vrei să limitezi acest răspuns."
+
+#: models.py:674 models.py:715 models.py:1009
+#: templates/helpdesk/email_ignore_list.html:13
+msgid "Name"
+msgstr "Nume"
+
+#: models.py:676
+msgid ""
+"Only used to assist users with selecting a reply - not shown to the user."
+msgstr ""
+"Este folosit doar pentru a ajuta utilizatorii prin alegerea unui răspuns - nu este afișat utilizatorului."
+
+#: models.py:681
+msgid "Body"
+msgstr "Body"
+
+#: models.py:682
+msgid ""
+"Context available: {{ ticket }} - ticket object (eg {{ ticket.title }}); "
+"{{ queue }} - The queue; and {{ user }} - the current user."
+msgstr ""
+"Context disponibil: {{ ticket }} - obiectul ticket (eg {{ ticket.title }}); "
+"{{ queue }} - Stiva; și {{ user }} - utilizatorul curent."
+
+#: models.py:709
+msgid ""
+"Leave blank for this exclusion to be applied to all queues, or select those "
+"queues you wish to exclude with this entry."
+msgstr ""
+"Lasă necompletat pentru ca excluziunea să fie aplicată tuturor stivelor, sau selectează "
+"stivele care să fie excluse."
+
+#: models.py:721
+msgid "Date on which escalation should not happen"
+msgstr "Dată la care escalarea nu ar trebui să se întâmple"
+
+#: models.py:738
+msgid "Template Name"
+msgstr "Nume Șablon"
+
+#: models.py:743
+msgid "Subject"
+msgstr "Subiect"
+
+#: models.py:745
+msgid ""
+"This will be prefixed with \"[ticket.ticket] ticket.title\". We recommend "
+"something simple such as \"(Updated\") or \"(Closed)\" - the same context is "
+"available as in plain_text, below."
+msgstr ""
+"acesta va avea prefixul \"[ticket.ticket] ticket.title\". Recomandăm "
+"să folosești ceva simplu ca \"(Updated\") sau \"(Closed)\" - același context este "
+"dispnibil în format text, mai jos."
+
+#: models.py:751
+msgid "Heading"
+msgstr "Titlu"
+
+#: models.py:753
+msgid ""
+"In HTML e-mails, this will be the heading at the top of the email - the same "
+"context is available as in plain_text, below."
+msgstr ""
+"În emailurile HTML acesta va fi titlul de partea superioară a emailului - același "
+"context este disponibil în format text, mai jos."
+
+
+#: models.py:759
+msgid "Plain Text"
+msgstr "Format Text"
+
+#: models.py:760
+msgid ""
+"The context available to you includes {{ ticket }}, {{ queue }}, and "
+"depending on the time of the call: {{ resolution }} or {{ comment }}."
+msgstr ""
+"Contextul disponibil pentru tine include {{ ticket }}, {{ queue }}, și "
+"în funcție de timpul apelului: {{ resolution }} sau {{ comment }}."
+
+
+#: models.py:766
+msgid "HTML"
+msgstr "HTML"
+
+#: models.py:767
+msgid "The same context is available here as in plain_text, above."
+msgstr "Același context este disponibil aici în format text, mai sus."
+
+#: models.py:776
+msgid "Locale of this template."
+msgstr "Localizarea acestui șablon."
+
+#: models.py:823 templates/helpdesk/kb_index.html:10
+#: templates/helpdesk/public_homepage.html:10
+msgid "Category"
+msgstr "Categorie"
+
+#: models.py:832
+msgid "Question"
+msgstr "Întrebare"
+
+#: models.py:836
+msgid "Answer"
+msgstr "Răspuns"
+
+#: models.py:840
+msgid "Votes"
+msgstr "Voturi"
+
+#: models.py:841
+msgid "Total number of votes cast for this item"
+msgstr "numărul total de voturi oferite"
+
+#: models.py:846
+msgid "Positive Votes"
+msgstr "Voturi Pozitive"
+
+#: models.py:847
+msgid "Number of votes for this item which were POSITIVE."
+msgstr "Numărul de voturi care au fost POZITIVE."
+
+#: models.py:852
+msgid "Last Updated"
+msgstr "Data ultimei actualizări"
+
+#: models.py:853
+msgid "The date on which this question was most recently changed."
+msgstr "Data la care această întrebare a fost actualizată."
+
+#: models.py:867
+msgid "Unrated"
+msgstr "Fără Voturi"
+
+#: models.py:898 templates/helpdesk/ticket_list.html:158
+msgid "Query Name"
+msgstr "Întrebare"
+
+#: models.py:900
+msgid "User-provided name for this query"
+msgstr "Nume furnizat de către utilizatori pentru această întrebare"
+
+#: models.py:904
+msgid "Shared With Other Users?"
+msgstr "Vrei să trimiți și altor utilizatori?"
+
+#: models.py:907
+msgid "Should other users see this query?"
+msgstr "Vrei ca alți utilizatori să vadă această întrebare?"
+
+#: models.py:911
+msgid "Search Query"
+msgstr "Termen de căutare"
+
+#: models.py:912
+msgid "Pickled query object. Be wary changing this."
+msgstr "Pickled query object. Grijă mare la schimbarea lui."
+
+#: models.py:933
+msgid "Settings Dictionary"
+msgstr "Dicționarul Setărilor"
+
+#: models.py:934
+msgid ""
+"This is a base64-encoded representation of a pickled Python dictionary. Do "
+"not change this field via the admin."
+msgstr ""
+"Aceasta este o reprezentare în base64 a unui dicționar Python pickled. Nu "
+"modifica acest câmp via admin."
+
+#: models.py:1003
+msgid ""
+"Leave blank for this e-mail to be ignored on all queues, or select those "
+"queues you wish to ignore this e-mail for."
+msgstr ""
+"Lasă necompletat pentru ca acest email să fie ignorat în toate stivele, sau selectează "
+"stivele pentru care vrei ca acest email să fie ignorat."
+
+#: models.py:1015
+msgid "Date on which this e-mail address was added"
+msgstr "Data la care a fost adăugat acest email"
+
+#: models.py:1023
+msgid ""
+"Enter a full e-mail address, or portions with wildcards, eg *@domain.com or "
+"postmaster@*."
+msgstr ""
+"Introdu adresa de email completă, oori poțiuni cu wildcards, ex *@domain.com sau "
+"postmaster@*."
+
+
+#: models.py:1028
+msgid "Save Emails in Mailbox?"
+msgstr "Salvează acest email?"
+
+#: models.py:1031
+msgid ""
+"Do you want to save emails from this address in the mailbox? If this is "
+"unticked, emails from this address will be deleted."
+msgstr ""
+"Vrei să salvezi mesajele venite de la acest email? Dacă nu  "
+"bifezi această opțiune, mesajele de la acest email vor fi șterse."
+
+
+#: models.py:1086
+msgid "User who wishes to receive updates for this ticket."
+msgstr "Utilizator care dorește să primească actualizări legate de acest ticket."
+
+#: models.py:1094
+msgid "For non-user followers, enter their e-mail address"
+msgstr "Introdu adresele de email pentru followeri care nu sunt useri"
+
+#: models.py:1098
+msgid "Can View Ticket?"
+msgstr "Poate Vedea Ticket?"
+
+#: models.py:1100
+msgid "Can this CC login to view the ticket details?"
+msgstr "Se poate loga acest CC pentru a vedea detaliile ticketului?"
+
+#: models.py:1104
+msgid "Can Update Ticket?"
+msgstr "Poate Actualiza Ticket?"
+
+#: models.py:1106
+msgid "Can this CC login and update the ticket?"
+msgstr "Se poate loga acest CC pentru a actualiza detaliile ticketului?"
+
+#: models.py:1137
+msgid "Field Name"
+msgstr "Nume Câmp"
+
+#: models.py:1138
+msgid ""
+"As used in the database and behind the scenes. Must be unique and consist of "
+"only lowercase letters with no punctuation."
+msgstr ""
+"După cum este folosit în baza de date și în zonele cu acces restrâns. Trebuie să fie unicat și să fie constituit din "
+"litere mici, fără semne de punctuație."
+
+#: models.py:1143
+msgid "Label"
+msgstr "Etichetă"
+
+#: models.py:1145
+msgid "The display label for this field"
+msgstr "Eticheta afișată pentru acest câmp"
+
+#: models.py:1149
+msgid "Help Text"
+msgstr "Text Ajutor"
+
+#: models.py:1150
+msgid "Shown to the user when editing the ticket"
+msgstr "Este afișat utilizatorului când editează ticketul"
+
+#: models.py:1156
+msgid "Character (single line)"
+msgstr "Caracter (o singură linie)"
+
+#: models.py:1157
+msgid "Text (multi-line)"
+msgstr "Text (pe mai mutle linii)"
+
+#: models.py:1158
+msgid "Integer"
+msgstr "Număr întreg"
+
+#: models.py:1159
+msgid "Decimal"
+msgstr "Decimale"
+
+#: models.py:1160
+msgid "List"
+msgstr "Listă"
+
+#: models.py:1161
+msgid "Boolean (checkbox yes/no)"
+msgstr "Boolean (alegi DA/NU)"
+
+#: models.py:1163
+msgid "Time"
+msgstr "Timp"
+
+#: models.py:1164
+msgid "Date & Time"
+msgstr "Dată și timp"
+
+#: models.py:1166
+msgid "URL"
+msgstr "URL"
+
+#: models.py:1167
+msgid "IP Address"
+msgstr "Adresă IP"
+
+#: models.py:1172
+msgid "Data Type"
+msgstr "tip Dată"
+
+#: models.py:1174
+msgid "Allows you to restrict the data entered into this field"
+msgstr "Permite restricționarea datelor introduse în acest câmp"
+
+#: models.py:1179
+msgid "Maximum Length (characters)"
+msgstr "Lumgine Maximă (caractere)"
+
+#: models.py:1185
+msgid "Decimal Places"
+msgstr "Număr Zecimale"
+
+#: models.py:1186
+msgid "Only used for decimal fields"
+msgstr "Folosit numai pentru câmpuri zecimale"
+
+#: models.py:1192
+msgid "Add empty first choice to List?"
+msgstr "Adaugă prima opțiune fără valoare în Listă?"
+
+#: models.py:1193
+msgid ""
+"Only for List: adds an empty first entry to the choices list, which enforces "
+"that the user makes an active choice."
+msgstr ""
+"Doar pentru Listă: adaugă o primă opțiune fără valoare în lista de alageri, ceea ce determină"
+"utilizatorul să facă o alegere conștientă."
+
+#: models.py:1197
+msgid "List Values"
+msgstr "Valorile Listei"
+
+#: models.py:1198
+msgid "For list fields only. Enter one option per line."
+msgstr "Doar pentru câmpurile listei. Introdu doar o opțiune pe linie."
+
+#: models.py:1204
+msgid "Ordering"
+msgstr "Comenzi"
+
+#: models.py:1205
+msgid "Lower numbers are displayed first; higher numbers are listed later"
+msgstr "Numerele mai mici sunt afișate primele, cele mai mari sunt afișate ulterior"
+
+#: models.py:1219
+msgid "Required?"
+msgstr "Necesar?"
+
+#: models.py:1220
+msgid "Does the user have to enter a value for this field?"
+msgstr "Utilizatorul este obligat să introducă o valoare pentru acest câmp?"
+
+#: models.py:1224
+msgid "Staff Only?"
+msgstr "Doar Pentru Echipă?"
+
+#: models.py:1225
+msgid ""
+"If this is ticked, then the public submission form will NOT show this field"
+msgstr ""
+"Dacă această opțiune este bifată, atunci formularul public de trimitere nu va afișa acest câmp"
+
+#: models.py:1268
+msgid "Depends On Ticket"
+msgstr "Depinde De Ticket"
+
+#: management/commands/create_usersettings.py:21
+msgid ""
+"Check for user without django-helpdesk UserSettings and create settings if "
+"required. Uses settings.DEFAULT_USER_SETTINGS which can be overridden to "
+"suit your situation."
+msgstr ""
+"Caută utilizator fără django-helpdesk UserSettings și creează setări dacă "
+"este nevoie. Folosește settings.DEFAULT_USER_SETTINGS care pot fi suprascrire pentru a"
+"se potrivi situației tale."
+
+#: management/commands/escalate_tickets.py:143
+#, python-format
+msgid "Ticket escalated after %s days"
+msgstr "Ticket escalat după %s zile"
+
+#: management/commands/get_email.py:151
+msgid "Created from e-mail"
+msgstr "Creat din email"
+
+#: management/commands/get_email.py:155
+msgid "Unknown Sender"
+msgstr "Expeditor necunoscut"
+
+#: management/commands/get_email.py:209
+msgid ""
+"No plain-text email body available. Please see attachment email_html_body."
+"html."
+msgstr ""
+"Nu există body în format text. Verifică fișierul atașat email_html_body."
+"html."
+
+#: management/commands/get_email.py:213
+msgid "email_html_body.html"
+msgstr "email_html_body.html"
+
+#: management/commands/get_email.py:256
+#, python-format
+msgid "E-Mail Received from %(sender_email)s"
+msgstr "email primit de la %(sender_email)s"
+
+#: management/commands/get_email.py:264
+#, python-format
+msgid "Ticket Re-Opened by E-Mail Received from %(sender_email)s"
+msgstr "Ticket redeschis prin emal primit de la %(sender_email)s"
+
+#: management/commands/get_email.py:322
+msgid " (Reopened)"
+msgstr " (Redeschis)"
+
+#: management/commands/get_email.py:324
+msgid " (Updated)"
+msgstr " (Actualizat)"
+
+#: templates/helpdesk/attribution.html:2
+msgid ""
+"Powered by <a href='https://github.com/rossp/django-helpdesk'>django-"
+"helpdesk</a>."
+msgstr ""
+"Powered by <a href='https://github.com/rossp/django-helpdesk'>django-"
+"helpdesk</a>."
+
+#: templates/helpdesk/attribution.html:4
+msgid "For technical support please contact:"
+msgstr "Pentru suport tehnic te rog contactează"
+
+#: templates/helpdesk/base.html:9
+msgid "Powered by django-helpdesk"
+msgstr "Powered by django-helpdesk"
+
+#: templates/helpdesk/base.html:19 templates/helpdesk/rss_list.html:9
+#: templates/helpdesk/rss_list.html:23 templates/helpdesk/rss_list.html:28
+msgid "My Open Tickets"
+msgstr "Ticketele Mele Deschise"
+
+#: templates/helpdesk/base.html:20
+msgid "All Recent Activity"
+msgstr "toată Activitatea Recentă"
+
+#: templates/helpdesk/base.html:21 templates/helpdesk/dashboard.html:98
+#: templates/helpdesk/rss_list.html:15
+msgid "Unassigned Tickets"
+msgstr "Tickete Nedesemnate"
+
+#: templates/helpdesk/base.html:101 templates/helpdesk/public_base.html:6
+#: templates/helpdesk/public_base.html:14
+msgid "Helpdesk"
+msgstr "Helpdesk"
+
+#: templates/helpdesk/base.html:111 templates/helpdesk/rss_list.html:9
+#: templates/helpdesk/rss_list.html:12 templates/helpdesk/rss_list.html:15
+#: templates/helpdesk/rss_list.html:27 templates/helpdesk/rss_list.html:28
+msgid "RSS Icon"
+msgstr "Iconiță RSS"
+
+#: templates/helpdesk/base.html:111 templates/helpdesk/rss_list.html:2
+#: templates/helpdesk/rss_list.html.py:4
+msgid "RSS Feeds"
+msgstr "Feed-uri RSS"
+
+#: templates/helpdesk/base.html:112
+msgid "API"
+msgstr "API"
+
+#: templates/helpdesk/base.html:113
+msgid "User Settings"
+msgstr "Setări Utilizator"
+
+#: templates/helpdesk/base.html:115
+msgid "Change Language"
+msgstr "Schimbă Limba"
+
+#: templates/helpdesk/base.html:117
+msgid "System Settings"
+msgstr "Setări Sistem"
+
+#: templates/helpdesk/confirm_delete_saved_query.html:3
+#: templates/helpdesk/ticket_list.html:144
+msgid "Delete Saved Query"
+msgstr "Șterge Interogarea Salvată"
+
+#: templates/helpdesk/confirm_delete_saved_query.html:5
+#, python-format
+msgid ""
+"\n"
+"<h2>Delete Query</h2>\n"
+"\n"
+"<p>Are you sure you want to delete this saved filter (<em>%(query_title)s</"
+"em>)? To re-create it, you will need to manually re-filter your ticket "
+"listing.</p>\n"
+msgstr ""
+"\n"
+"<h2>Șterge Interogarea</h2>\n"
+"\n"
+"<p>Ești sigur că vrei să ștergi acest filtru (<em>%(query_title)s</"
+"em>)? Pentru a-l recrea va trebui să resortezi "
+"lista de tickete.</p>\n"
+
+#: templates/helpdesk/confirm_delete_saved_query.html:11
+msgid ""
+"\n"
+"<p>You have shared this query, so other users may be using it. If you delete "
+"it, they will have to manually create their own query.</p>\n"
+msgstr ""
+"\n"
+"<p>Ai făcut publică această interogare, astfel că alții o pot folosi. Dacă o ștergi "
+"ei vor trebui să își facă manual propria interogare.</p>\n"
+
+#: templates/helpdesk/confirm_delete_saved_query.html:15
+#: templates/helpdesk/delete_ticket.html:11
+msgid "No, Don't Delete It"
+msgstr "Nu, Nu Șterge"
+
+#: templates/helpdesk/confirm_delete_saved_query.html:17
+#: templates/helpdesk/delete_ticket.html:13
+msgid "Yes - Delete It"
+msgstr "Da - Șterge"
+
+#: templates/helpdesk/create_ticket.html:3
+msgid "Create Ticket"
+msgstr "Creează Ticket"
+
+#: templates/helpdesk/create_ticket.html:6
+msgid ""
+"<h2>Submit a Ticket</h2>\n"
+"\n"
+"<p>Unless otherwise stated, all fields are required. Please provide as "
+"descriptive a title and description as possible.</p>"
+msgstr ""
+"<h2>Trimite ticket</h2>\n"
+"\n"
+"<p>Dacă nu se menționează altfel, toate câmpurile sunt obligatorii. Te rugăm să ne furnizezi "
+"un titlu și o descriere cât mai descriptive.</p>"
+
+#: templates/helpdesk/create_ticket.html:17
+#: templates/helpdesk/edit_ticket.html:19
+#: templates/helpdesk/public_homepage.html:50
+msgid "(Optional)"
+msgstr "(Opțional)"
+
+#: templates/helpdesk/create_ticket.html:26
+#: templates/helpdesk/public_homepage.html:59
+msgid "Submit Ticket"
+msgstr "Trimite Ticket"
+
+#: templates/helpdesk/dashboard.html:2
+msgid "Helpdesk Dashboard"
+msgstr "Panou control HelpDesk"
+
+#: templates/helpdesk/dashboard.html:10
+msgid "Helpdesk Summary"
+msgstr "Sumar HelpDesk"
+
+#: templates/helpdesk/dashboard.html:25
+msgid ""
+"Welcome to your Helpdesk Dashboard! From here you can quickly see tickets "
+"submitted by you, tickets you are working on, and those tickets that have no "
+"owner."
+msgstr ""
+"Bine ai venit la panoul de control HelpDesk! De aici poți vedea simplu ce tickete "
+"ai deschis, la ce tickete lucrezi și ticketele care nu au"
+"deținător."
+
+#: templates/helpdesk/dashboard.html:27
+msgid ""
+"Welcome to your Helpdesk Dashboard! From here you can quickly see your own "
+"tickets, and those tickets that have no owner. Why not pick up an orphan "
+"ticket and sort it out for a customer?"
+msgstr ""
+"Bine ai venit la panoul de control HelpDesk! De aici poți vedea simplu ticketele"
+"tale și cele care nu au deținător. De ce nu iei un ticekt orfan și nu"
+"în rezolvi pentru client?"
+
+#: templates/helpdesk/dashboard.html:36
+msgid "Current Ticket Stats"
+msgstr "Statisticile Ticketelor Actuale"
+
+#: templates/helpdesk/dashboard.html:37
+msgid "Average number of days until ticket is closed (all tickets): "
+msgstr "Numărul mediu de zile până când un ticket este închis (toate ticketele):"
+
+#: templates/helpdesk/dashboard.html:38
+msgid ""
+"Average number of days until ticket is closed (tickets opened in last 60 "
+"days): "
+msgstr ""
+"Numărul mediu de zile până cînd un ticket este închis (ticketele deschise în ultimele 60"
+"de zile):"
+
+#: templates/helpdesk/dashboard.html:39
+msgid "Click"
+msgstr "Clic"
+
+#: templates/helpdesk/dashboard.html:39
+msgid "for detailed average by month."
+msgstr "pentru medii lunare detaliate."
+
+#: templates/helpdesk/dashboard.html:40
+msgid "Distribution of open tickets, grouped by time period:"
+msgstr "Distribuția ticketelor deschise, grupate pe perioade de timp:"
+
+#: templates/helpdesk/dashboard.html:41
+msgid "Days since opened"
+msgstr "zile de când a fost deschis"
+
+#: templates/helpdesk/dashboard.html:41
+msgid "Number of open tickets"
+msgstr "Numărul de tickete deschise"
+
+#: templates/helpdesk/dashboard.html:58
+msgid "All Tickets submitted by you"
+msgstr "Toate ticketele deschise de tine"
+
+#: templates/helpdesk/dashboard.html:59 templates/helpdesk/dashboard.html:79
+#: templates/helpdesk/dashboard.html:99 templates/helpdesk/dashboard.html:121
+#: templates/helpdesk/ticket_list.html:199
+msgid "Pr"
+msgstr "Pr"
+
+#: templates/helpdesk/dashboard.html:59 templates/helpdesk/dashboard.html:79
+#: templates/helpdesk/dashboard.html:121
+msgid "Last Update"
+msgstr "Ultima Actualizare"
+
+#: templates/helpdesk/dashboard.html:78
+msgid "Open Tickets assigned to you (you are working on this ticket)"
+msgstr "Tickete deschise desemnate ție ( lucrezi la aceste tickete)"
+
+#: templates/helpdesk/dashboard.html:91
+msgid "You have no tickets assigned to you."
+msgstr "Nu ai tickete desemnate ție."
+
+#: templates/helpdesk/dashboard.html:98
+msgid "(pick up a ticket if you start to work on it)"
+msgstr " (preia un ticket dacă începi să lucrezi la el)"
+
+#: templates/helpdesk/dashboard.html:107
+#: templates/helpdesk/ticket_desc_table.html:22
+msgid "Take"
+msgstr "Preia"
+
+#: templates/helpdesk/dashboard.html:107
+#: templates/helpdesk/email_ignore_list.html:13
+#: templates/helpdesk/email_ignore_list.html:23
+#: templates/helpdesk/ticket_cc_list.html:15
+#: templates/helpdesk/ticket_cc_list.html:23
+#: templates/helpdesk/ticket_list.html:234
+msgid "Delete"
+msgstr "Șterge"
+
+#: templates/helpdesk/dashboard.html:111
+msgid "There are no unassigned tickets."
+msgstr "Nu există tickete nedesemnate"
+
+#: templates/helpdesk/dashboard.html:120
+msgid "Closed & resolved Tickets you used to work on"
+msgstr "Tickete închise și rezolvate la care ai lucrat"
+
+#: templates/helpdesk/delete_ticket.html:3
+msgid "Delete Ticket"
+msgstr "Șterge Ticket"
+
+#: templates/helpdesk/delete_ticket.html:5
+#, python-format
+msgid ""
+"\n"
+"<h2>Delete Ticket</h2>\n"
+"\n"
+"<p>Are you sure you want to delete this ticket (<em>%(ticket_title)s</em>)? "
+"All traces of the ticket, including followups, attachments, and updates will "
+"be irreversably removed.</p>\n"
+msgstr ""
+"\n"
+"<h2>Șterge Ticket</h2>\n"
+"\n"
+"<p>Ești sigur că vrei să șterig acest ticket (<em>%(ticket_title)s</em>)? "
+"Toate urmele acestui ticket, incluzând follow-ups, atașamente și actualizări "
+"fi șterse iremediabil.</p>\n"
+
+#: templates/helpdesk/edit_ticket.html:3
+msgid "Edit Ticket"
+msgstr "Editează Ticket"
+
+#: templates/helpdesk/edit_ticket.html:6
+msgid ""
+"<h2>Edit a Ticket</h2>\n"
+"\n"
+"<p>Unless otherwise stated, all fields are required. Please provide as "
+"descriptive a title and description as possible.</p>\n"
+"\n"
+"<p><strong>Note:</strong> Editing a ticket does <em>not</em> send an e-mail "
+"to the ticket owner or submitter. No new details should be entered, this "
+"form should only be used to fix incorrect details or clean up the submission."
+"</p>"
+msgstr ""
+"<h2>Editează Un Ticket</h2>\n"
+"\n"
+"<p>Dacă nu este altfel specificat, toate câmpurile sunt obligatorii. Te rugăm oferă "
+"titluri și descrieri cât mai descriptive.</p>\n"
+"\n"
+"<p><strong>Notă:</strong> Editarea unui ticket <em>nu</em> duce la trimiterea unul email "
+"către deținătorul ticketului sau utilizator. A nu se introduce detalii noi. Acest "
+"formular trebuie folosit numai pentru a corecta informațiile primite."
+"</p>"
+
+#: templates/helpdesk/edit_ticket.html:28
+msgid "Save Changes"
+msgstr "Salvează Modificările"
+
+#: templates/helpdesk/email_ignore_add.html:3
+#: templates/helpdesk/email_ignore_add.html:23
+msgid "Ignore E-Mail Address"
+msgstr "Ignoră Adresa Email"
+
+#: templates/helpdesk/email_ignore_add.html:5
+msgid ""
+"\n"
+"<h2>Ignore E-Mail Address</h2>\n"
+"\n"
+"<p>To ignore an e-mail address and prevent any emails from that address "
+"creating tickets automatically, enter the e-mail address below.</p>\n"
+"\n"
+"<p>You can either enter a whole e-mail address such as <em>email@domain.com</"
+"em> or a portion of an e-mail address with a wildcard, such as <em>*@domain."
+"com</em> or <em>user@*</em>.</p>"
+msgstr ""
+"\n"
+"<h2>Ignoră Adresa E-Mail </h2>\n"
+"\n"
+"<p>Pentru a ignora o adresă de email și pentru a bloca acel email să"
+"creeze tickete în mod automat, introdu adresa mai jos.</p>\n"
+"\n"
+"<p>Poți introduce adresa de email completă precum <em>email@domain.com</"
+"em> ori o parte folosindu-te de wildcard-uri ca <em>*@domain."
+"com</em> sau <em>user@*</em>.</p>"
+
+#: templates/helpdesk/email_ignore_del.html:3
+msgid "Delete Ignored E-Mail Address"
+msgstr "Sștere Email Ignorat"
+
+#: templates/helpdesk/email_ignore_del.html:5
+#, python-format
+msgid ""
+"\n"
+"<h2>Un-Ignore E-Mail Address</h2>\n"
+"\n"
+"<p>Are you sure you wish to stop removing this email address (<em>"
+"%(email_address)s</em>) and allow their e-mails to automatically create "
+"tickets in your system? You can re-add this e-mail address at any time.</p>\n"
+msgstr ""
+"\n"
+"<h2>Scoate din lista de emailuri ignorate</h2>\n"
+"\n"
+"<p>Ești sigur că vrei să scoți din lista emailurilor ignorate (<em>"
+"%(email_address)s</em>) și să le permiți crearea automată a ticketelor "
+"în sistem? Poți trece această adresă de email în listă oricând înapoi.</p>\n"
+
+#: templates/helpdesk/email_ignore_del.html:11
+msgid "Keep Ignoring It"
+msgstr "Ignoră În Continuare"
+
+#: templates/helpdesk/email_ignore_del.html:13
+msgid "Stop Ignoring It"
+msgstr "Nu Mai Ignora"
+
+#: templates/helpdesk/email_ignore_list.html:3
+#: templates/helpdesk/email_ignore_list.html:12
+msgid "Ignored E-Mail Addresses"
+msgstr "Adrese Email Ignorate"
+
+#: templates/helpdesk/email_ignore_list.html:5
+msgid ""
+"\n"
+"<h2>Ignored E-Mail Addresses</h2>\n"
+"\n"
+"<p>The following e-mail addresses are currently being ignored by the "
+"incoming e-mail processor. You can <a href='add/'>add a new e-mail address "
+"to the list</a> or delete any of the items below as required.</p>"
+msgstr ""
+"\n"
+"<h2>Adrese Email Ignorate</h2>\n"
+"\n"
+"<p>Următoarele adrese email sunt ignorate "
+"de către procesorul de emailuri. Poți <a href='add/'>adăuga o nouă adresă email "
+"în listă</a> sau poți șterege oricare după necesitate.</p>"
+
+#: templates/helpdesk/email_ignore_list.html:13
+msgid "Date Added"
+msgstr "Data Adăugării"
+
+#: templates/helpdesk/email_ignore_list.html:13
+msgid "Queues"
+msgstr "Stive"
+
+#: templates/helpdesk/email_ignore_list.html:13
+msgid "Keep in mailbox?"
+msgstr "Mențin în căsuța de emailuri?"
+
+#: templates/helpdesk/email_ignore_list.html:21
+#: templates/helpdesk/ticket_list.html:232
+msgid "All"
+msgstr "Toate"
+
+#: templates/helpdesk/email_ignore_list.html:22
+msgid "Keep"
+msgstr "Menține"
+
+#: templates/helpdesk/email_ignore_list.html:29
+msgid ""
+"<strong>Note:</strong> If the 'Keep' option is not selected, emails sent "
+"from that address will be deleted permanently."
+msgstr ""
+"<strong>Notă:</strong> Dacă opțiunea 'Menține' nu este selectată, atunci mesajele trimise "
+"de la acea adresă vor fi ștere permanent."
+
+#: templates/helpdesk/followup_edit.html:2
+msgid "Edit followup"
+msgstr "Editează Follow-Up"
+
+#: templates/helpdesk/followup_edit.html:9
+msgid "Edit FollowUp"
+msgstr "Editează Follow-Up"
+
+#: templates/helpdesk/followup_edit.html:14
+msgid "Reassign ticket:"
+msgstr "Redesemnează ticket:"
+
+#: templates/helpdesk/followup_edit.html:16
+msgid "Title:"
+msgstr "Titlu:"
+
+#: templates/helpdesk/followup_edit.html:18
+msgid "Comment:"
+msgstr "Comentariu"
+
+#: templates/helpdesk/kb_category.html:4
+#: templates/helpdesk/kb_category.html:11
+#, python-format
+msgid "Knowledgebase Category: %(kbcat)s"
+msgstr "Categoria tutorialelor: %(kbcat)s"
+
+#: templates/helpdesk/kb_category.html:6
+#, python-format
+msgid "You are viewing all items in the %(kbcat)s category."
+msgstr "Sunt afișate toate articolele din categoria %(kbcat)s."
+
+#: templates/helpdesk/kb_category.html:12
+msgid "Article"
+msgstr "Articol"
+
+#: templates/helpdesk/kb_index.html:4 templates/helpdesk/navigation.html:11
+#: templates/helpdesk/navigation.html:33
+msgid "Knowledgebase"
+msgstr "Tutoriale"
+
+#: templates/helpdesk/kb_index.html:6
+msgid ""
+"We have listed a number of knowledgebase articles for your perusal in the "
+"following categories. Please check to see if any of these articles address "
+"your problem prior to opening a support ticket."
+msgstr ""
+"Am afișat o serie de tutoriale ca să te ajute iar acestea fac parte din "
+"următoarele categorii. Te rugăm să verifici dacă aceste articole răspund întrebărilor tale "
+"înainte de a deschide un ticket de sprijin."
+
+#: templates/helpdesk/kb_index.html:9
+#: templates/helpdesk/public_homepage.html:9
+msgid "Knowledgebase Categories"
+msgstr "Categorii Tutoriale"
+
+#: templates/helpdesk/kb_item.html:4
+#, python-format
+msgid "Knowledgebase: %(item)s"
+msgstr "Tutorial: %(item)s "
+
+#: templates/helpdesk/kb_item.html:13
+#, python-format
+msgid ""
+"View <a href='%(category_url)s'>other <em>%(category_title)s</em> articles</"
+"a>, or continue <a href='../'>viewing other knowledgebase articles</a>."
+msgstr ""
+"Vizualizează <a href='%(category_url)s'>alte articole din categoria <em>%(category_title)s</em></"
+"a>, sau continuă cu <a href='../'>vizualizarea altor tutoriale</a>."
+
+#: templates/helpdesk/kb_item.html:15
+msgid "Feedback"
+msgstr "Sugestii"
+
+#: templates/helpdesk/kb_item.html:17
+msgid ""
+"We give our users an opportunity to vote for items that they believe have "
+"helped them out, in order for us to better serve future customers. We would "
+"appreciate your feedback on this article. Did you find it useful?"
+msgstr ""
+"Îți oferim ocazia să votezi articolele care "
+"te-au ajutat pentru că vrem să oferim servicii mai bune pe viitor. Apreciem"
+"sugestiile legate de acest articol. A fost de ajutor?"
+
+#: templates/helpdesk/kb_item.html:20
+msgid "This article was useful to me"
+msgstr "Articolul a fost util"
+
+#: templates/helpdesk/kb_item.html:21
+msgid "This article was <strong>not</strong> useful to me"
+msgstr "Articolul <strong>nu</strong> m-a ajutat"
+
+#: templates/helpdesk/kb_item.html:24
+msgid "The results of voting by other readers of this article are below:"
+msgstr "Rezultatele voturilor date de alți clienți sunt mai jos:"
+
+#: templates/helpdesk/kb_item.html:27
+#, python-format
+msgid "Recommendations: %(recommendations)s"
+msgstr "Recomandări: %(recommendations)s"
+
+#: templates/helpdesk/kb_item.html:28
+#, python-format
+msgid "Votes: %(votes)s"
+msgstr "Voturi: %(votes)s"
+
+#: templates/helpdesk/kb_item.html:29
+#, python-format
+msgid "Overall Rating: %(score)s"
+msgstr "Scor General: %(score)s"
+
+#: templates/helpdesk/navigation.html:4
+msgid "Dashboard"
+msgstr "Panou Control"
+
+#: templates/helpdesk/navigation.html:5
+#: templates/helpdesk/ticket_list.html:198
+msgid "Tickets"
+msgstr "Tickete"
+
+#: templates/helpdesk/navigation.html:6
+msgid "New Ticket"
+msgstr "Ticket nou"
+
+#: templates/helpdesk/navigation.html:8
+msgid "Stats"
+msgstr "Statistici"
+
+#: templates/helpdesk/navigation.html:14
+#: templates/helpdesk/ticket_list.html:46
+msgid "Load Saved Query"
+msgstr "Încarcă Interogarea Salvată"
+
+#: templates/helpdesk/navigation.html:25 templates/helpdesk/navigation.html:35
+msgid "Logout"
+msgstr "Ieșire"
+
+#: templates/helpdesk/navigation.html:26
+msgid "Search..."
+msgstr "Caută..."
+
+#: templates/helpdesk/navigation.html:26
+msgid "Enter a keyword, or a ticket number to jump straight to that ticket."
+msgstr "Întrodu termen de căutare sau un număr de ticket pentru a sări direct la ticket."
+
+#: templates/helpdesk/navigation.html:31
+msgid "Submit A Ticket"
+msgstr "Deschide ticket"
+
+#: templates/helpdesk/navigation.html:35
+msgid "Log In"
+msgstr "Intră"
+
+#: templates/helpdesk/public_change_language.html:2
+#: templates/helpdesk/public_homepage.html:21
+#: templates/helpdesk/public_view_form.html:4
+#: templates/helpdesk/public_view_ticket.html:2
+msgid "View a Ticket"
+msgstr "Vezi Tickete"
+
+#: templates/helpdesk/public_change_language.html:5
+msgid "Change the display language"
+msgstr "Schimbă Limba"
+
+#: templates/helpdesk/public_homepage.html:6
+msgid "Knowledgebase Articles"
+msgstr "Tutoriale"
+
+#: templates/helpdesk/public_homepage.html:29
+#: templates/helpdesk/public_view_form.html:15
+msgid "Your E-mail Address"
+msgstr "Adresa ta de email"
+
+#: templates/helpdesk/public_homepage.html:33
+#: templates/helpdesk/public_view_form.html:19
+msgid "View Ticket"
+msgstr "Vezi Ticket"
+
+#: templates/helpdesk/public_homepage.html:39
+msgid "Submit a Ticket"
+msgstr "Deschide Ticket"
+
+#: templates/helpdesk/public_homepage.html:41
+msgid ""
+"All fields are required. Please provide as descriptive a title and "
+"description as possible."
+msgstr ""
+"Toate câmpurile sunt obligatorii. Te rugăm să furnizezi titlu și "
+"desciere cât mai descriptive."
+
+#: templates/helpdesk/public_homepage.html:67
+msgid "Please use button at upper right to login first."
+msgstr "Te rugăm să folosești butonul din dreapta-sus pentru a intra."
+
+#: templates/helpdesk/public_spam.html:4
+msgid "Unable To Open Ticket"
+msgstr "Nu se poate deschide ticketul"
+
+#: templates/helpdesk/public_spam.html:6
+msgid ""
+"<p>Sorry, but there has been an error trying to submit your ticket.</p>\n"
+"\n"
+"<p>Our system has marked your submission as <strong>spam</strong>, so we are "
+"unable to save it. If this is not spam, please press back and re-type your "
+"message. Be careful to avoid sounding 'spammy', and if you have heaps of "
+"links please try removing them if possible.</p>\n"
+"\n"
+"<p>We are sorry for any inconvenience, however this check is required to "
+"avoid our helpdesk resources being overloaded by spammers.</p>\n"
+msgstr ""
+"<p>Ne pare rău, dar nu s-a putut deschide ticketul.</p>\n"
+"\n"
+"<p>Sistemul nostru a marcat încercarea drept <strong>spam</strong>, de aceea "
+"nu s-a putut salva. Dacă nu este spam, atunci te rugăm să dai click pe BACK și să rescrii "
+"mesajul. Evită exrpimări 'spammy', și dacă ai multe "
+"linkuri te rugăm să le ștergi.</p>\n"
+"\n"
+"<p>Ne pare rău pentru disconfort, totuși această verificare este necesară pentru a "
+"evita supraîncărcarea resurselor din portalul de sprijin datorită spammerilor.</p>\n"
+
+#: templates/helpdesk/public_view_form.html:8
+msgid "Error:"
+msgstr "Eroare:"
+
+#: templates/helpdesk/public_view_ticket.html:8
+#, python-format
+msgid "Queue: %(queue_name)s"
+msgstr "Stivă: %(queue_name)s"
+
+#: templates/helpdesk/public_view_ticket.html:11
+#: templates/helpdesk/ticket_desc_table.html:16
+msgid "Submitted On"
+msgstr "Deschis La Data:"
+
+#: templates/helpdesk/public_view_ticket.html:46
+#: templates/helpdesk/ticket_desc_table.html:74
+msgid "Accept"
+msgstr "Acceptă"
+
+#: templates/helpdesk/public_view_ticket.html:46
+#: templates/helpdesk/ticket_desc_table.html:74
+msgid "Accept and Close"
+msgstr "Acceptă și Închide"
+
+#: templates/helpdesk/public_view_ticket.html:55
+#: templates/helpdesk/ticket.html:64
+msgid "Follow-Ups"
+msgstr "Follow-Ups"
+
+#: templates/helpdesk/public_view_ticket.html:63
+#: templates/helpdesk/ticket.html:98
+#, python-format
+msgid "Changed %(field)s from %(old_value)s to %(new_value)s."
+msgstr "%(field)s au fost schimbate de la %(old_value)s la %(new_value)s."
+
+#: templates/helpdesk/report_index.html:3
+#: templates/helpdesk/report_index.html:6
+#: templates/helpdesk/report_output.html:3
+#: templates/helpdesk/report_output.html:16
+msgid "Reports &amp; Statistics"
+msgstr "Rapoarte &amp; Statistici"
+
+#: templates/helpdesk/report_index.html:9
+msgid "You haven't created any tickets yet, so you cannot run any reports."
+msgstr "Încă nu ai creat tickete, așadar nu poți vedea rapoarte legate de ele."
+
+#: templates/helpdesk/report_index.html:13
+msgid "Reports By User"
+msgstr "Rapoarte Utilizatori"
+
+#: templates/helpdesk/report_index.html:15
+#: templates/helpdesk/report_index.html:24
+msgid "by Priority"
+msgstr "după Prioritate"
+
+#: templates/helpdesk/report_index.html:16
+msgid "by Queue"
+msgstr "după Stivă"
+
+#: templates/helpdesk/report_index.html:17
+#: templates/helpdesk/report_index.html:25
+msgid "by Status"
+msgstr "după Stare"
+
+#: templates/helpdesk/report_index.html:18
+#: templates/helpdesk/report_index.html:26
+msgid "by Month"
+msgstr "pe Luni"
+
+#: templates/helpdesk/report_index.html:22
+msgid "Reports By Queue"
+msgstr "Rapoarte Stive"
+
+#: templates/helpdesk/report_index.html:27 views/staff.py:1097
+msgid "Days until ticket closed by Month"
+msgstr "Zile până la închiderea ticketului în funcție de Luni"
+
+#: templates/helpdesk/report_output.html:19
+msgid ""
+"You can run this query on filtered data by using one of your saved queries."
+msgstr ""
+"Poți rula interogarea în cadrul datelor ordonate folosindu-te de una dintre interogările salvate."
+
+#: templates/helpdesk/report_output.html:21
+msgid "Select Query:"
+msgstr "alege Interogare"
+
+#: templates/helpdesk/report_output.html:26
+msgid "Filter Report"
+msgstr "Ordonează Raport"
+
+#: templates/helpdesk/report_output.html:29
+msgid ""
+"Want to filter this report to just show a subset of data? Go to the Ticket "
+"List, filter your query, and save your query."
+msgstr ""
+"Vrei să sortezi infromația din raport pentru a arăta doar anumite date? Mergi în"
+"lista de tickete, ordonează tabelul și apoi salvează interogarea."
+
+#: templates/helpdesk/rss_list.html:6
+msgid ""
+"The following RSS feeds are available for you to monitor using your "
+"preferred RSS software. With the exception of the 'Latest Activity' feed, "
+"all feeds provide information only on Open and Reopened cases. This ensures "
+"your RSS reader isn't full of information about closed or historical tasks."
+msgstr ""
+"Următoarele feed-uri RSS te vor ajuta să monitorizezi activitatea pe tickete și "
+"pot fi folosite cu orice software RSS compatibil. Cu excepția feed-ului 'Activități Recente' "
+"toate feed-urile oferă infromații doar despre tickete Deschise sau Redeschise. Acest lucru te asigură că"
+"Readeul RSS pe care îl folosești nu este mereu plin de informații despre tickete Închise sau acțiuni arhivate"
+
+#: templates/helpdesk/rss_list.html:10
+msgid ""
+"A summary of your open tickets - useful for getting alerted to new tickets "
+"opened for you"
+msgstr ""
+"Sumar al ticketelor deschise de tine - folositor pentru a primi alerte legate de tickete noi "
+"deschise de tine"
+
+#: templates/helpdesk/rss_list.html:12
+msgid "Latest Activity"
+msgstr "Activități Recente"
+
+#: templates/helpdesk/rss_list.html:13
+msgid ""
+"A summary of all helpdesk activity - including comments, emails, "
+"attachments, and more"
+msgstr ""
+"Sumar al tuturor activităților din HelpDesk - sunt incluse comentarii, emailuri, "
+"fișiere atașate și multe altele"
+
+#: templates/helpdesk/rss_list.html:16
+msgid ""
+"All unassigned tickets - useful for being alerted to new tickets opened by "
+"the public via the web or via e-mail"
+msgstr ""
+"toate ticketele nedesemnate - util pentru a primi alerte legate de tickete deschise de"
+"public prin internet sau prin email"
+
+#: templates/helpdesk/rss_list.html:19
+msgid ""
+"These RSS feeds allow you to view a summary of either your own tickets, or "
+"all tickets, for each of the queues in your helpdesk. For example, if you "
+"manage the staff who utilise a particular queue, this may be used to view "
+"new tickets coming into that queue."
+msgstr ""
+"Aceste feed-uri RSS îți permit să vezi un sumar fie al ticketelor tale, fie"
+"al tuturor ticketelor, pentru fiecare din stivele din HelpDesk, partea destinată ție. De exemplu, dacă "
+"tu administrezi echipa ce se ocupă de o stivă, poți vedea ce "
+"tickete noi vin în acea stivă."
+
+#: templates/helpdesk/rss_list.html:22
+msgid "Per-Queue Feeds"
+msgstr "Feeduri Interogări"
+
+#: templates/helpdesk/rss_list.html:23
+msgid "All Open Tickets"
+msgstr "Toate Ticketele Deschise"
+
+#: templates/helpdesk/rss_list.html:27
+msgid "Open Tickets"
+msgstr "tickete Deschise"
+
+#: templates/helpdesk/system_settings.html:3
+msgid "Change System Settings"
+msgstr "Modifică Setările Sistem"
+
+#: templates/helpdesk/system_settings.html:5
+msgid ""
+"\n"
+"<h2>System Settings</h2>\n"
+"\n"
+"<p>The following items can be maintained by you or other superusers:</p>"
+msgstr ""
+"\n"
+"<h2>Setări Sistem</h2>\n"
+"\n"
+"<p>Următoarele pot fi administrate de tine sau de alți superuseri:</p>"
+
+#: templates/helpdesk/system_settings.html:11
+msgid "E-Mail Ignore list"
+msgstr "Lista Emailui Ignorate"
+
+#: templates/helpdesk/system_settings.html:12
+msgid "Maintain Queues"
+msgstr "Administrează Stive"
+
+#: templates/helpdesk/system_settings.html:13
+msgid "Maintain Pre-Set Replies"
+msgstr "Administrează Răspunsuri Predefinite"
+
+#: templates/helpdesk/system_settings.html:14
+msgid "Maintain Knowledgebase Categories"
+msgstr "Administrează Categoriile Tutorialelor"
+
+#: templates/helpdesk/system_settings.html:15
+msgid "Maintain Knowledgebase Items"
+msgstr "Administrează Tutorialele"
+
+#: templates/helpdesk/system_settings.html:16
+msgid "Maintain E-Mail Templates"
+msgstr "Administrează Șabloane Email"
+
+#: templates/helpdesk/system_settings.html:17
+msgid "Maintain Users"
+msgstr "Administrează Utilizatorii"
+
+#: templates/helpdesk/ticket.html:2
+msgid "View Ticket Details"
+msgstr "Vezi Detalii Tickete"
+
+#: templates/helpdesk/ticket.html:34
+msgid "Attach another File"
+msgstr "Atașează alt Fișier"
+
+#: templates/helpdesk/ticket.html:34 templates/helpdesk/ticket.html.py:203
+msgid "Add Another File"
+msgstr "Adaugă alt Fișier"
+
+#: templates/helpdesk/ticket.html:71 templates/helpdesk/ticket.html.py:84
+msgid "Private"
+msgstr "Privat"
+
+#: templates/helpdesk/ticket.html:117
+msgid "Respond to this ticket"
+msgstr "răspunde la acest ticket."
+
+#: templates/helpdesk/ticket.html:124
+msgid "Use a Pre-set Reply"
+msgstr "Folosește Răspuns Predefinit"
+
+#: templates/helpdesk/ticket.html:126
+msgid ""
+"Selecting a pre-set reply will over-write your comment below. You can then "
+"modify the pre-set reply to your liking before saving this update."
+msgstr ""
+"Selectarea unui răspuns predefinit va suprascrie comentariul de mai jos. Vei putea "
+"modifica răspunsul predefinit înainte de a salva această actualizare."
+
+#: templates/helpdesk/ticket.html:129
+msgid "Comment / Resolution"
+msgstr "Comentariu / Rezolvare"
+
+#: templates/helpdesk/ticket.html:131
+msgid ""
+"You can insert ticket and queue details in your message. For more "
+"information, see the <a href='../../help/context/'>context help page</a>."
+msgstr ""
+"Poți introduce detalii despre ticket și stivă în mesajul tău. Pentru mai multe"
+"informații, vezi <a href='../../help/context/'>pagina de ajutor contextual</a>."
+
+#: templates/helpdesk/ticket.html:134
+msgid ""
+"This ticket cannot be resolved or closed until the tickets it depends on are "
+"resolved."
+msgstr ""
+"Acest ticket nu poate fi rezolva sau închide până când ticketele care depind de el nu sunt "
+"rezolvate."
+
+#: templates/helpdesk/ticket.html:164
+msgid "Is this update public?"
+msgstr "Această actualizare este publică?"
+
+#: templates/helpdesk/ticket.html:166
+msgid ""
+"If this is public, the submitter will be e-mailed your comment or resolution."
+msgstr ""
+"Dacă este publică, atunci cel care a deshis ticketul va primi un email cu comentariul sau rezolvarea ta."
+
+#: templates/helpdesk/ticket.html:170
+msgid "Change Further Details &raquo;"
+msgstr "Schimbă Alte Detalii &raquo; "
+
+#: templates/helpdesk/ticket.html:179 templates/helpdesk/ticket_list.html:55
+#: templates/helpdesk/ticket_list.html:87
+#: templates/helpdesk/ticket_list.html:199
+msgid "Owner"
+msgstr "Deținător"
+
+#: templates/helpdesk/ticket.html:180
+msgid "Unassign"
+msgstr "Eliberează"
+
+#: templates/helpdesk/ticket.html:196
+msgid "Attach File(s) &raquo;"
+msgstr "atașează Fișiere &raquo;"
+
+#: templates/helpdesk/ticket.html:202
+msgid "Attach a File"
+msgstr "Atașează Fișier"
+
+#: templates/helpdesk/ticket.html:210
+msgid "Update This Ticket"
+msgstr "Actualizează Ticket"
+
+#: templates/helpdesk/ticket_cc_add.html:3
+msgid "Add Ticket CC"
+msgstr "Adugă CC la Ticket"
+
+#: templates/helpdesk/ticket_cc_add.html:5
+msgid ""
+"\n"
+"<h2>Add Ticket CC</h2>\n"
+"\n"
+"<p>To automatically send an email to a user or e-mail address when this "
+"ticket is updated, select the user or enter an e-mail address below.</p>"
+msgstr ""
+"\n"
+"<h2>Adaugă CC la Ticket</h2>\n"
+"\n"
+"<p>Pentru a trimite în mod automat un email către utilizator sau către o adresă de email când  "
+"acest ticket este actualizat selectează utilizatorul sau adaugă adresă email.</p>"
+
+#: templates/helpdesk/ticket_cc_add.html:21
+msgid "Save Ticket CC"
+msgstr "Salvează CC Ticket"
+
+#: templates/helpdesk/ticket_cc_del.html:3
+msgid "Delete Ticket CC"
+msgstr "Șterge CC Ticket"
+
+#: templates/helpdesk/ticket_cc_del.html:5
+#, python-format
+msgid ""
+"\n"
+"<h2>Delete Ticket CC</h2>\n"
+"\n"
+"<p>Are you sure you wish to delete this email address (<em>"
+"%(email_address)s</em>) from the CC list for this ticket? They will stop "
+"receiving updates.</p>\n"
+msgstr ""
+"\n"
+"<h2>Șterge CC Ticket</h2>\n"
+"\n"
+"<p>ești sigur că vrei să ștergi această adresă de email (<em>"
+"%(email_address)s</em>) din lista CC a acestui ticket? Ei nu vor mai "
+"primi mesaje despre actualizări.</p>\n"
+
+#: templates/helpdesk/ticket_cc_del.html:11
+#: templates/helpdesk/ticket_dependency_del.html:11
+msgid "Don't Delete"
+msgstr "Nu Șterge"
+
+#: templates/helpdesk/ticket_cc_del.html:13
+#: templates/helpdesk/ticket_dependency_del.html:13
+msgid "Yes, Delete"
+msgstr "Da, șterge"
+
+#: templates/helpdesk/ticket_cc_list.html:3
+msgid "Ticket CC Settings"
+msgstr "Setări CC Ticket"
+
+#: templates/helpdesk/ticket_cc_list.html:5
+#, python-format
+msgid ""
+"\n"
+"<h2>Ticket CC Settings</h2>\n"
+"\n"
+"<p>The following people will receive an e-mail whenever <em><a href='../'>"
+"%(ticket_title)s</a></em> is updated. Some people can also view or edit the "
+"ticket via the public ticket views.</p>\n"
+"\n"
+"<p>You can <a href='add/'>add a new e-mail address to the list</a> or delete "
+"any of the items below as required.</p>"
+msgstr ""
+"\n"
+"<h2>Setări CC Ticket</h2>\n"
+"\n"
+"<p>Următoarele persoane vor primi un email de fiecare dată când <em><a href='../'>"
+"%(ticket_title)s</a></em> este actualizat. Unele persoanel pot, de asemenea, vizualiza sau edita "
+"ticketul prin intermediul afișării publice.</p>\n"
+"\n"
+"<p>Poți <a href='add/'>adăuga o nouă adresă în listă</a> sau poți șterge "
+"oricare dintre cele de mai jos.</p>"
+
+#: templates/helpdesk/ticket_cc_list.html:14
+msgid "Ticket CC List"
+msgstr "Lista CC Ticket"
+
+#: templates/helpdesk/ticket_cc_list.html:15
+msgid "View?"
+msgstr "Vezi?"
+
+#: templates/helpdesk/ticket_cc_list.html:15
+msgid "Update?"
+msgstr "Actualizezi?"
+
+#: templates/helpdesk/ticket_cc_list.html:29
+#, python-format
+msgid "Return to <em>%(ticket_title)s</em>"
+msgstr "Întoarce-te la  <em>%(ticket_title)s</em>"
+
+#: templates/helpdesk/ticket_dependency_add.html:3
+msgid "Add Ticket Dependency"
+msgstr "Adaugă Dependență ticket"
+
+#: templates/helpdesk/ticket_dependency_add.html:5
+msgid ""
+"\n"
+"<h2>Add Ticket Dependency</h2>\n"
+"\n"
+"<p>Adding a dependency will stop you resolving this ticket until the "
+"dependent ticket has been resolved or closed.</p>"
+msgstr ""
+"\n"
+"<h2>Adaugă Dependență Ticket</h2>\n"
+"\n"
+"<p>Adăugând o depnedență la acest ticket va determina blocarea rezolvării lui până când "
+"ticketul dependent nu va fi rezolvat sau închis.</p>"
+
+#: templates/helpdesk/ticket_dependency_add.html:21
+msgid "Save Ticket Dependency"
+msgstr "Salvează Dependență Ticket"
+
+#: templates/helpdesk/ticket_dependency_del.html:3
+msgid "Delete Ticket Dependency"
+msgstr "Șterge Dependență ticket"
+
+#: templates/helpdesk/ticket_dependency_del.html:5
+msgid ""
+"\n"
+"<h2>Delete Ticket Dependency</h2>\n"
+"\n"
+"<p>Are you sure you wish to remove the dependency on this ticket?</p>\n"
+msgstr ""
+"\n"
+"<h2>Șterge Dependență Ticket</h2>\n"
+"\n"
+"<p>Ești sigur că vrei să ștergi dependența ticketului?</p>\n"
+
+#: templates/helpdesk/ticket_desc_table.html:11
+msgid "Unhold"
+msgstr "Deblocare"
+
+#: templates/helpdesk/ticket_desc_table.html:11
+msgid "Hold"
+msgstr "Blocare"
+
+#: templates/helpdesk/ticket_desc_table.html:13
+#, python-format
+msgid "Queue: %(queue)s"
+msgstr "Stivă: %(queue)s"
+
+#: templates/helpdesk/ticket_desc_table.html:21
+msgid "Assigned To"
+msgstr "Desemnat lui"
+
+#: templates/helpdesk/ticket_desc_table.html:27
+msgid "Ignore"
+msgstr "Ignoră"
+
+#: templates/helpdesk/ticket_desc_table.html:36
+msgid "Copies To"
+msgstr "Copiat La"
+
+#: templates/helpdesk/ticket_desc_table.html:37
+msgid "Manage"
+msgstr "Administrează"
+
+#: templates/helpdesk/ticket_desc_table.html:37
+msgid ""
+"Click here to add / remove people who should receive an e-mail whenever this "
+"ticket is updated."
+msgstr ""
+"Clic aici pentru a adăuga / șterge oameni acre ar trebui să primească un email de fiecare dată când acest "
+"ticket este actualizat."
+
+#: templates/helpdesk/ticket_desc_table.html:37
+msgid "Subscribe"
+msgstr "Înscrie"
+
+#: templates/helpdesk/ticket_desc_table.html:37
+msgid ""
+"Click here to subscribe yourself to this ticket, if you want to receive an e-"
+"mail whenever this ticket is updated."
+msgstr ""
+"Clic aici pentru a te înscrie la acest ticket dacă vrei să primești un"
+"email de fiecare dată când este actualizat."
+
+#: templates/helpdesk/ticket_desc_table.html:48
+msgid "Dependencies"
+msgstr "Dependențe"
+
+#: templates/helpdesk/ticket_desc_table.html:50
+msgid ""
+"This ticket cannot be resolved until the following ticket(s) are resolved"
+msgstr ""
+"Acest ticket nu poate fi rezolvat până când următoarele tickete nu sunt rezolvate"
+
+#: templates/helpdesk/ticket_desc_table.html:51
+msgid "Remove Dependency"
+msgstr "Șterge Dependență"
+
+#: templates/helpdesk/ticket_desc_table.html:54
+msgid "This ticket has no dependencies."
+msgstr "Acest ticket nu are dependențe."
+
+#: templates/helpdesk/ticket_desc_table.html:56
+msgid "Add Dependency"
+msgstr "Adaugă Dependență"
+
+#: templates/helpdesk/ticket_desc_table.html:56
+msgid ""
+"Click on 'Add Dependency', if you want to make this ticket dependent on "
+"another ticket. A ticket may not be closed until all tickets it depends on "
+"are closed."
+msgstr ""
+"Clic pe 'Adaugă Dependență' dacă vrei ca acest ticket să depindă de "
+"alt ticket. Un ticket nu poate fi închis până când toate ticketele de care depinde nu "
+"sunt închise."
+
+#: templates/helpdesk/ticket_list.html:2
+msgid "Ticket Listing"
+msgstr "Lista Ticketelor"
+
+#: templates/helpdesk/ticket_list.html:41
+msgid "Query Options"
+msgstr "Opțiunile Interogătilor"
+
+#: templates/helpdesk/ticket_list.html:43
+msgid "Save This Query"
+msgstr "Salvează Interogarea"
+
+#: templates/helpdesk/ticket_list.html:51
+msgid "Change Query"
+msgstr "Modifică Interogarea"
+
+#: templates/helpdesk/ticket_list.html:54
+#: templates/helpdesk/ticket_list.html:69
+msgid "Sorting"
+msgstr "Ordonare"
+
+#: templates/helpdesk/ticket_list.html:58
+#: templates/helpdesk/ticket_list.html:137
+msgid "Keywords"
+msgstr "Cuvinte Cheie"
+
+#: templates/helpdesk/ticket_list.html:59
+msgid "Date Range"
+msgstr "Interval Temporal"
+
+#: templates/helpdesk/ticket_list.html:90
+msgid "Reverse"
+msgstr "Revers"
+
+#: templates/helpdesk/ticket_list.html:92
+msgid "Ordering applied to tickets"
+msgstr "Ordonare aplicată ticketelor"
+
+#: templates/helpdesk/ticket_list.html:97
+msgid "Owner(s)"
+msgstr "Deținători"
+
+#: templates/helpdesk/ticket_list.html:101
+msgid "(ME)"
+msgstr " (EU)"
+
+#: templates/helpdesk/ticket_list.html:105
+msgid "Ctrl-Click to select multiple options"
+msgstr "Ctrl-Clic pentru a selecta mai multe opțiuni"
+
+#: templates/helpdesk/ticket_list.html:110
+msgid "Queue(s)"
+msgstr "Stive"
+
+#: templates/helpdesk/ticket_list.html:111
+#: templates/helpdesk/ticket_list.html:117
+#: templates/helpdesk/ticket_list.html:131
+msgid "Ctrl-click to select multiple options"
+msgstr "Ctrl-clic pentru a selecta mai multe opțiuni"
+
+#: templates/helpdesk/ticket_list.html:116
+msgid "Status(es)"
+msgstr "Stare"
+
+#: templates/helpdesk/ticket_list.html:122
+msgid "Date (From)"
+msgstr "Dată (de la)"
+
+#: templates/helpdesk/ticket_list.html:123
+msgid "Date (To)"
+msgstr "Dată (la)"
+
+#: templates/helpdesk/ticket_list.html:124
+msgid "Use YYYY-MM-DD date format, eg 2011-05-29"
+msgstr "Folosește următorul format pentru dată: AAAA-LL-ZZ , ex 2011-05-29, pentru 29 mai 2011"
+
+#: templates/helpdesk/ticket_list.html:130
+msgid "Tag(s)"
+msgstr "Etichete"
+
+#: templates/helpdesk/ticket_list.html:138
+msgid ""
+"Keywords are case-insensitive, and will be looked for in the title, body and "
+"submitter fields."
+msgstr ""
+"Cuvintele cheie pot avea litere mici sau mari și vor fi căutate în titlul și conținutul"
+"câmpurilor celui ce a inițiat comanda."
+
+#: templates/helpdesk/ticket_list.html:142
+msgid "Apply Filter"
+msgstr "Aplică Ordonare"
+
+#: templates/helpdesk/ticket_list.html:144
+#, python-format
+msgid "You are currently viewing saved query <em>%(query_name)s</em>."
+msgstr "Acum vizualizezi interogarea salvată cu numele <em>%(query_name)s</em>."
+
+#: templates/helpdesk/ticket_list.html:147
+#, python-format
+msgid ""
+"<a href='../reports/?saved_query=%(query_id)s'>Run a report</a> on this "
+"query to see stats and charts for the data listed below."
+msgstr ""
+"<a href='../reports/?saved_query=%(query_id)s'>Rulează un raport</a> pentru această "
+"interogare pentru a vedea statisticile și graficele pentru informațiile de mai jos."
+
+#: templates/helpdesk/ticket_list.html:154
+#: templates/helpdesk/ticket_list.html:169
+msgid "Save Query"
+msgstr "Salvează Interogare"
+
+#: templates/helpdesk/ticket_list.html:160
+msgid ""
+"This name appears in the drop-down list of saved queries. If you share your "
+"query, other users will see this name, so choose something clear and "
+"descriptive!"
+msgstr ""
+"Acest nume este afișat în lista de interogări salvate. Dacă împarți "
+"interogarea cu alți utilizatori, aceștia vor vedea acest nume, așadar alege ceva clar și "
+"descriptiv!"
+
+#: templates/helpdesk/ticket_list.html:162
+msgid "Shared?"
+msgstr "Împărțit?"
+
+#: templates/helpdesk/ticket_list.html:163
+msgid "Yes, share this query with other users."
+msgstr "Da, împarte această interogare cu alți utilizatori."
+
+#: templates/helpdesk/ticket_list.html:164
+msgid ""
+"If you share this query, it will be visible by <em>all</em> other logged-in "
+"users."
+msgstr ""
+"Dacă împarți această interogare, ea va fi vizibilă <em>tuturor</em> "
+"utilizatorilor logați."
+
+#: templates/helpdesk/ticket_list.html:176
+msgid "Use Saved Query"
+msgstr "Utilizează Interogare Salvată"
+
+#: templates/helpdesk/ticket_list.html:178
+msgid "Query"
+msgstr "Interogare"
+
+#: templates/helpdesk/ticket_list.html:183
+msgid "Run Query"
+msgstr "Rulează Interogarea"
+
+#: templates/helpdesk/ticket_list.html:213
+msgid "No Tickets Match Your Selection"
+msgstr "Nu Există Tickete Corespunzătoare Selecției"
+
+#: templates/helpdesk/ticket_list.html:219
+msgid "Previous"
+msgstr "Precedent"
+
+#: templates/helpdesk/ticket_list.html:223
+#, python-format
+msgid "Page %(ticket_num)s of %(num_pages)s."
+msgstr "Pagina %(ticket_num)s din %(num_pages)s."
+
+#: templates/helpdesk/ticket_list.html:227
+msgid "Next"
+msgstr "Următor"
+
+#: templates/helpdesk/ticket_list.html:232
+msgid "Select:"
+msgstr "Selectează:"
+
+#: templates/helpdesk/ticket_list.html:232
+msgid "None"
+msgstr "Nimic"
+
+#: templates/helpdesk/ticket_list.html:232
+msgid "Inverse"
+msgstr "Invers"
+
+#: templates/helpdesk/ticket_list.html:234
+msgid "With Selected Tickets:"
+msgstr "Cu Ticketele Selectate"
+
+#: templates/helpdesk/ticket_list.html:234
+msgid "Take (Assign to me)"
+msgstr "Preia (desemnează-l mie)"
+
+#: templates/helpdesk/ticket_list.html:234
+msgid "Close"
+msgstr "Închide"
+
+#: templates/helpdesk/ticket_list.html:234
+msgid "Close (Don't Send E-Mail)"
+msgstr "Închide (nu trimite email)"
+
+#: templates/helpdesk/ticket_list.html:234
+msgid "Close (Send E-Mail)"
+msgstr "Închide (trimite email)"
+
+#: templates/helpdesk/ticket_list.html:234
+msgid "Assign To"
+msgstr "Desemnează lui"
+
+#: templates/helpdesk/ticket_list.html:234
+msgid "Nobody (Unassign)"
+msgstr "Nimeni (nu desemna)"
+
+#: templates/helpdesk/user_settings.html:3
+msgid "Change User Settings"
+msgstr "Modifică Setările Utilizator"
+
+#: templates/helpdesk/user_settings.html:14
+msgid ""
+"\n"
+"<h2>User Settings</h2>\n"
+"\n"
+"<p>Use the following options to change the way your helpdesk system works "
+"for you. These settings do not impact any other user.</p>\n"
+msgstr ""
+msgid ""
+"\n"
+"<h2>Setări Utilizator</h2>\n"
+"\n"
+"<p>folosește următoarele opșiuni pentru a schimba modul în care sistemul helpdesk funcționează "
+"pentru tine. Aceste setări nu afectează alți utilizatori.</p>\n"
+
+#: templates/helpdesk/user_settings.html:29
+msgid "Save Options"
+msgstr "Salvează Opțiuni"
+
+#: templates/helpdesk/registration/logged_out.html:2
+msgid "Logged Out"
+msgstr "Ieșit Din Cont"
+
+#: templates/helpdesk/registration/logged_out.html:4
+msgid ""
+"\n"
+"<h2>Logged Out</h2>\n"
+"\n"
+"<p>Thanks for being here. Hopefully you've helped resolve a few tickets and "
+"make the world a better place.</p>\n"
+"\n"
+msgstr ""
+"\n"
+"<h2>Ieșit Din Cont</h2>\n"
+"\n"
+"<p>Mulțumim pentru munca depusă. Sperăm că ai rezolvat câteva tickete și "
+"că ai făcut, astfel, lumea un loc mai bun.</p>\n"
+"\n"
+
+#: templates/helpdesk/registration/login.html:2
+msgid "Helpdesk Login"
+msgstr "Intrare HelpDesk"
+
+#: templates/helpdesk/registration/login.html:9
+#: templates/helpdesk/registration/login.html:21
+msgid "Login"
+msgstr "Intră"
+
+#: templates/helpdesk/registration/login.html:11
+msgid ""
+"To log in and begin responding to cases, simply enter your username and "
+"password below."
+msgstr ""
+"Pentru a intra și a rezolva cazuri introdu numele de utilizator și "
+"parola mai jos."
+
+#: templates/helpdesk/registration/login.html:14
+msgid "Your username and password didn't match. Please try again."
+msgstr "Numele de utilizator sau parola nu sunt valide. Te rugăm, încearcă din nou."
+
+#: templates/helpdesk/registration/login.html:16
+msgid "Username"
+msgstr "Utilizator"
+
+#: templates/helpdesk/registration/login.html:18
+msgid "Password"
+msgstr "Parola"
+
+#: views/feeds.py:35
+#, python-format
+msgid "Helpdesk: Open Tickets in queue %(queue)s for %(username)s"
+msgstr "Helpdesk: Tickete deschise în stivă %(queue)s pentru %(username)s"
+
+#: views/feeds.py:40
+#, python-format
+msgid "Helpdesk: Open Tickets for %(username)s"
+msgstr "Helpdesk: Tickete deschise pentru %(username)s"
+
+#: views/feeds.py:46
+#, python-format
+msgid "Open and Reopened Tickets in queue %(queue)s for %(username)s"
+msgstr "Tickete deschise și redeschise în stivă %(queue)s pentru %(username)s"
+
+#: views/feeds.py:51
+#, python-format
+msgid "Open and Reopened Tickets for %(username)s"
+msgstr "Tickete deschise și redeschise pentru %(username)s"
+
+#: views/feeds.py:98
+msgid "Helpdesk: Unassigned Tickets"
+msgstr "Helpdesk: Tickete Nedesemnate"
+
+#: views/feeds.py:99
+msgid "Unassigned Open and Reopened tickets"
+msgstr "tickete deschise și redeschise nedesemnate"
+
+#: views/feeds.py:124
+msgid "Helpdesk: Recent Followups"
+msgstr "Helpdesk: Folow-Up-uri Recente"
+
+#: views/feeds.py:125
+msgid ""
+"Recent FollowUps, such as e-mail replies, comments, attachments and "
+"resolutions"
+msgstr ""
+"Follow-up-uri recente ca răspunsuri la email, comentarii, atașamente și"
+"rezolvări"
+
+#: views/feeds.py:140
+#, python-format
+msgid "Helpdesk: Open Tickets in queue %(queue)s"
+msgstr "Helpdesk: Tickete deschise în stivă %(queue)s"
+
+#: views/feeds.py:145
+#, python-format
+msgid "Open and Reopened Tickets in queue %(queue)s"
+msgstr "Tickete deshise și redeschise în stiva %(queue)s "
+
+#: views/public.py:91
+msgid "Invalid ticket ID or e-mail address. Please try again."
+msgstr "ID ticket sau adresă email greșite. Te rugăm, încearcă din nou."
+
+#: views/public.py:109
+msgid "Submitter accepted resolution and closed ticket"
+msgstr "Cel ce a deschis ticketul a acceptat rezolvarea și a închis ticketul."
+
+#: views/staff.py:247
+msgid "Accepted resolution and closed ticket"
+msgstr "A acceptat rezolvarea și a închis ticketul"
+
+#: views/staff.py:384
+#, python-format
+msgid "Assigned to %(username)s"
+msgstr "Desemnat lui %(username)s"
+
+#: views/staff.py:407
+msgid "Updated"
+msgstr "Actualizat"
+
+#: views/staff.py:597
+#, python-format
+msgid "Assigned to %(username)s in bulk update"
+msgstr "Desemnat lui %(username)s în cadrul unei actualizări în grup"
+
+#: views/staff.py:602
+msgid "Unassigned in bulk update"
+msgstr "Nedesemnat în cadrul unei actualizări în grup"
+
+#: views/staff.py:607 views/staff.py:612
+msgid "Closed in bulk update"
+msgstr "Închis în cadrul unei actualizări în grup"
+
+#: views/staff.py:833
+msgid ""
+"<p><strong>Note:</strong> Your keyword search is case sensitive because of "
+"your database. This means the search will <strong>not</strong> be accurate. "
+"By switching to a different database system you will gain better searching! "
+"For more information, read the <a href=\"http://docs.djangoproject.com/en/"
+"dev/ref/databases/#sqlite-string-matching\">Django Documentation on string "
+"matching in SQLite</a>."
+msgstr ""
+"<p><strong>Notă:</strong> Căutarea pe baza cuvintelor cheie este case sensitive din cauza "
+"bazei de date folosită. Aceasta înseamnă că această căutare <strong>nu</strong> va fi exactă. "
+"Prin mutarea la un alt sistem de baze de date vei avea o funcție de căutare mai bună! "
+"Pentru mai multe informații citește <a href=\"http://docs.djangoproject.com/en/"
+"dev/ref/databases/#sqlite-string-matching\">Documentația Django despre  "
+"corenpondența stringurilor în SQLite</a>."
+
+#: views/staff.py:944
+msgid "Ticket taken off hold"
+msgstr "Ticket scos din așteptare"
+
+#: views/staff.py:947
+msgid "Ticket placed on hold"
+msgstr "Ticket pus în așteptare"
+
+#: views/staff.py:1018
+msgid "Jan"
+msgstr "Ian"
+
+#: views/staff.py:1019
+msgid "Feb"
+msgstr "Feb"
+
+#: views/staff.py:1020
+msgid "Mar"
+msgstr "Mar"
+
+#: views/staff.py:1021
+msgid "Apr"
+msgstr "Apr"
+
+#: views/staff.py:1022
+msgid "May"
+msgstr "Mai"
+
+#: views/staff.py:1023
+msgid "Jun"
+msgstr "Iun"
+
+#: views/staff.py:1024
+msgid "Jul"
+msgstr "Iul"
+
+#: views/staff.py:1025
+msgid "Aug"
+msgstr "Aug"
+
+#: views/staff.py:1026
+msgid "Sep"
+msgstr "Sep"
+
+#: views/staff.py:1027
+msgid "Oct"
+msgstr "Oct"
+
+#: views/staff.py:1028
+msgid "Nov"
+msgstr "Noi"
+
+#: views/staff.py:1029
+msgid "Dec"
+msgstr "Dec"
+
+#: views/staff.py:1055
+msgid "User by Priority"
+msgstr "Utilizator după Prioritate"
+
+#: views/staff.py:1061
+msgid "User by Queue"
+msgstr "Utilizator după Stivă"
+
+#: views/staff.py:1067
+msgid "User by Status"
+msgstr "Utilizator după Stare"
+
+#: views/staff.py:1073
+msgid "User by Month"
+msgstr "Utilizator după Luni"
+
+#: views/staff.py:1079
+msgid "Queue by Priority"
+msgstr "Stivă după Priorități"
+
+#: views/staff.py:1085
+msgid "Queue by Status"
+msgstr "Stivă după Status"
+
+#: views/staff.py:1091
+msgid "Queue by Month"
+msgstr "Stivă după Luni"
