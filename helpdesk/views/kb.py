@@ -40,8 +40,12 @@ def category(request, slug):
         }))
 
 
-def item(request, slug):
-    item = get_object_or_404(KBItem, slug__iexact=slug)
+def item(request, item, slug=None):
+    if slug:
+        item = get_object_or_404(KBItem, slug__iexact=slug)
+    else:
+        item = get_object_or_404(KBItem, pk=item)
+
     return render_to_response('helpdesk/kb_item.html',
         RequestContext(request, {
             'item': item,
