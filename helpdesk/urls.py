@@ -182,7 +182,7 @@ urlpatterns += patterns('',
         name='logout'),
 )
 
-lf helpdesk_settings.HELPDESK_KB_ENABLED:
+if helpdesk_settings.HELPDESK_KB_ENABLED:
     urlpatterns += patterns('helpdesk.views.kb',
         url(r'^kb/$',
             'index', name='helpdesk_kb_index'),
