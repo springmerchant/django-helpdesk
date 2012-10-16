@@ -876,7 +876,7 @@ class KBItem(models.Model):
         ordering = ['title',]
 
     def get_absolute_url(self):
-        return ('helpdesk_kb_item', (self.id,))
+        return ('helpdesk_kb_item_slug', (self.id, self.slug))
     get_absolute_url = models.permalink(get_absolute_url)
 
 

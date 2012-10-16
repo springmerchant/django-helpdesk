@@ -17,8 +17,8 @@
 <p>{% trans "We give our users an opportunity to vote for items that they believe have helped them out, in order for us to better serve future customers. We would appreciate your feedback on this article. Did you find it useful?" %}</p>
 
 <ul>
-<li><a href='vote/?vote=up'>{% trans "This article was useful to me" %}</a></li>
-<li><a href='vote/?vote=down'>{% trans "This article was <strong>not</strong> useful to me" %}</a></li>
+<li><a href='{% url helpdesk_kb_vote item=item.pk %}?vote=up'>{% trans "This article was useful to me" %}</a></li>
+<li><a href='{% url helpdesk_kb_vote item=item.pk %}?vote=down'>{% trans "This article was <strong>not</strong> useful to me" %}</a></li>
 </ul>
 
 <p>{% trans "The results of voting by other readers of this article are below:" %}</p>
