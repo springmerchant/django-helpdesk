@@ -835,7 +835,9 @@ class KBItem(models.Model):
     answer = models.TextField(
         _('Answer'),
         )
-
+    slug = models.SlugField(
+        _('Slug'),
+    )
     votes = models.IntegerField(
         _('Votes'),
         help_text=_('Total number of votes cast for this item'),
